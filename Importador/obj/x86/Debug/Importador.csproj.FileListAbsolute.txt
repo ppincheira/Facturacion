@@ -1,0 +1,9 @@
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\bin\Debug\Importador.exe
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\bin\Debug\Importador.pdb
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\Importador.frmImportar.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\Importador.Properties.Resources.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\Importador.exe
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\Importador.pdb

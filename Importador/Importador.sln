@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Importador", "Importador.csproj", "{D3060928-92EA-40CD-81F1-C3769D5E8532}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "install", "install\install.vdproj", "{F46A2A10-0AEB-4F55-B218-620AC24D4B18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3060928-92EA-40CD-81F1-C3769D5E8532}.Debug|x86.ActiveCfg = Debug|x86
+		{D3060928-92EA-40CD-81F1-C3769D5E8532}.Debug|x86.Build.0 = Debug|x86
+		{D3060928-92EA-40CD-81F1-C3769D5E8532}.Release|x86.ActiveCfg = Release|x86
+		{D3060928-92EA-40CD-81F1-C3769D5E8532}.Release|x86.Build.0 = Release|x86
+		{F46A2A10-0AEB-4F55-B218-620AC24D4B18}.Debug|x86.ActiveCfg = Debug
+		{F46A2A10-0AEB-4F55-B218-620AC24D4B18}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
