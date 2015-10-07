@@ -1,0 +1,1047 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6B313AA-5F7A-4D49-A2BD-2EB9AD8E12B4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.cooperativa.view</RootNamespace>
+    <AssemblyName>com.cooperativa.view</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administracion\frmAsistenteIntimacionesPorDeuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmAsistenteIntimacionesPorDeuda.Designer.cs">
+      <DependentUpon>frmAsistenteIntimacionesPorDeuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscar.Designer.cs">
+      <DependentUpon>frmBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscarSocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscadores\frmBuscarSocio.Designer.cs">
+      <DependentUpon>frmBuscarSocio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisDeudor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisDeudor.Designer.cs">
+      <DependentUpon>frmAnalisisDeudor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisCobranzasPosteriores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisCobranzasPosteriores.Designer.cs">
+      <DependentUpon>frmAnalisisCobranzasPosteriores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisEvolucionMensual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisEvolucionMensual.Designer.cs">
+      <DependentUpon>frmAnalisisEvolucionMensual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisFacturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisFacturacion.Designer.cs">
+      <DependentUpon>frmAnalisisFacturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisUsuariosSocios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmAnalisisUsuariosSocios.Designer.cs">
+      <DependentUpon>frmAnalisisUsuariosSocios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmCierreCajas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmCierreCajas.Designer.cs">
+      <DependentUpon>frmCierreCajas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmCambiarCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmCambiarCaja.Designer.cs">
+      <DependentUpon>frmCambiarCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmCobranza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmCobranza.Designer.cs">
+      <DependentUpon>frmCobranza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmCobranzasConceptosParticulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmCobranzasConceptosParticulares.Designer.cs">
+      <DependentUpon>frmCobranzasConceptosParticulares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmListadoCobranzasAFIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmListadoCobranzasAFIP.Designer.cs">
+      <DependentUpon>frmListadoCobranzasAFIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmListadoDeudoresRecientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmListadoDeudoresRecientes.Designer.cs">
+      <DependentUpon>frmListadoDeudoresRecientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmListadoGralDeudores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmListadoGralDeudores.Designer.cs">
+      <DependentUpon>frmListadoGralDeudores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmListadoGralSocioSinDeuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmListadoGralSocioSinDeuda.Designer.cs">
+      <DependentUpon>frmListadoGralSocioSinDeuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmResumenDiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmResumenDiario.Designer.cs">
+      <DependentUpon>frmResumenDiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmConfiguracionesPestanias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\frmConfiguracionesPestanias.Designer.cs">
+      <DependentUpon>frmConfiguracionesPestanias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmGestionMoratorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\frmGestionMoratorias.Designer.cs">
+      <DependentUpon>frmGestionMoratorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\frmImprimirFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\frmImprimirFactura.Designer.cs">
+      <DependentUpon>frmImprimirFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cobranza\frmRecaudacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cobranza\frmRecaudacion.Designer.cs">
+      <DependentUpon>frmRecaudacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\frmReFacturar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\frmReFacturar.Designer.cs">
+      <DependentUpon>frmReFacturar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\frmResumenFacturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\frmResumenFacturacion.Designer.cs">
+      <DependentUpon>frmResumenFacturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\rptResumenFacturacionXzonaXBarrio.cs">
+      <DependentUpon>rptResumenFacturacionXzonaXBarrio.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\dsResumen.cs">
+      <DependentUpon>dsResumen.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\dsResumen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsResumen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\rptResumenFacturacionXBarrioXzona.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptResumenFacturacionXBarrioXzona.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\rptResumenSubDiario.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptResumenSubDiario.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\rptResumenXBarrio.cs">
+      <DependentUpon>rptResumenXBarrio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\rptResumenXConcepto.cs">
+      <DependentUpon>rptResumenXConcepto.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\rptResumenXConceptoXBarrio.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptResumenXConceptoXBarrio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\rptResumenXTarifa.cs">
+      <DependentUpon>rptResumenXTarifa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Administracion\frmAvisosVariosASocios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmAvisosVariosASocios.Designer.cs">
+      <DependentUpon>frmAvisosVariosASocios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargaEstados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCargaEstados.Designer.cs">
+      <DependentUpon>frmCargaEstados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFacturasSeleccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFacturasSeleccion.Designer.cs">
+      <DependentUpon>frmFacturasSeleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmIntimacionesDeudasConvenios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmIntimacionesDeudasConvenios.Designer.cs">
+      <DependentUpon>frmIntimacionesDeudasConvenios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmPadronDeSociosPorDistrito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmPadronDeSociosPorDistrito.Designer.cs">
+      <DependentUpon>frmPadronDeSociosPorDistrito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmPadronGeneralSocios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmPadronGeneralSocios.Designer.cs">
+      <DependentUpon>frmPadronGeneralSocios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmPreautorizacionCobroSinInteres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmPreautorizacionCobroSinInteres.Designer.cs">
+      <DependentUpon>frmPreautorizacionCobroSinInteres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmResumenConveniosPagosFirmados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmResumenConveniosPagosFirmados.Designer.cs">
+      <DependentUpon>frmResumenConveniosPagosFirmados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmSociosCodene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmSociosCodene.Designer.cs">
+      <DependentUpon>frmSociosCodene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmSociosEnProcesoJudicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmSociosEnProcesoJudicial.Designer.cs">
+      <DependentUpon>frmSociosEnProcesoJudicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmSociosEnSituacionEspecial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmSociosEnSituacionEspecial.Designer.cs">
+      <DependentUpon>frmSociosEnSituacionEspecial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmSociosIntimados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmSociosIntimados.Designer.cs">
+      <DependentUpon>frmSociosIntimados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Encabezado.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Encabezado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptFacturas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptFacturas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Rutas\frmImprimirHojaRuta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rutas\frmImprimirHojaRuta.Designer.cs">
+      <DependentUpon>frmImprimirHojaRuta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rutas\Reportes\dsRutas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRutas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\frmTerminales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\frmTerminales.Designer.cs">
+      <DependentUpon>frmTerminales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seguridad\frmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\frmUsuarios.Designer.cs">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sys\frmGeneraPeriodos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sys\frmGeneraPeriodos.Designer.cs">
+      <DependentUpon>frmGeneraPeriodos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAcciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAcciones.Designer.cs">
+      <DependentUpon>frmAcciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAccionesAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccionesAM.Designer.cs">
+      <DependentUpon>frmAccionesAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBarrio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBarrio.Designer.cs">
+      <DependentUpon>frmBarrio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConceptosParticulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConceptosParticulares.Designer.cs">
+      <DependentUpon>frmConceptosParticulares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConvenioNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConvenioNuevo.Designer.cs">
+      <DependentUpon>frmConvenioNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConvenioPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConvenioPago.Designer.cs">
+      <DependentUpon>frmConvenioPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConvenios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConvenios.Designer.cs">
+      <DependentUpon>frmConvenios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCuentaCorriente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCuentaCorriente.Designer.cs">
+      <DependentUpon>frmCuentaCorriente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\frmFacturacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\frmFacturacion.Designer.cs">
+      <DependentUpon>frmFacturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalleFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetalleFactura.Designer.cs">
+      <DependentUpon>frmDetalleFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFacturas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFacturas.Designer.cs">
+      <DependentUpon>frmFacturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFiltro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFiltro.Designer.cs">
+      <DependentUpon>FrmFiltro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalles.Designer.cs">
+      <DependentUpon>frmCalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategorias.Designer.cs">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConcepto.Designer.cs">
+      <DependentUpon>frmConcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadoConexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadoConexion.Designer.cs">
+      <DependentUpon>frmEstadoConexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadoPJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadoPJ.Designer.cs">
+      <DependentUpon>frmEstadoPJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstudio.Designer.cs">
+      <DependentUpon>frmEstudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIntimacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIntimacion.Designer.cs">
+      <DependentUpon>frmIntimacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMediciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMediciones.Designer.cs">
+      <DependentUpon>frmMediciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmObservaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmObservaciones.Designer.cs">
+      <DependentUpon>frmObservaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSituacionEspecial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSituacionEspecial.Designer.cs">
+      <DependentUpon>frmSituacionEspecial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSocio.Designer.cs">
+      <DependentUpon>frmSocio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTarifa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTarifa.Designer.cs">
+      <DependentUpon>frmTarifa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipoConexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipoConexion.Designer.cs">
+      <DependentUpon>frmTipoConexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipoDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipoDocumento.Designer.cs">
+      <DependentUpon>frmTipoDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMedianera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMedianera.Designer.cs">
+      <DependentUpon>frmMedianera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProvincia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProvincia.Designer.cs">
+      <DependentUpon>frmProvincia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipoIntimacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipoIntimacion.Designer.cs">
+      <DependentUpon>frmTipoIntimacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTipoIVA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTipoIVA.Designer.cs">
+      <DependentUpon>FrmTipoIVA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVentanaInformativa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVentanaInformativa.Designer.cs">
+      <DependentUpon>frmVentanaInformativa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZona.Designer.cs">
+      <DependentUpon>frmZona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\rptProvincias.cs">
+      <DependentUpon>rptProvincias.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\dsGenerico.cs">
+      <DependentUpon>dsGenerico.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\dsGenerico.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGenerico.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\frmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\frmReportes.Designer.cs">
+      <DependentUpon>frmReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\rptBarrios.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptBarrios.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptCalles.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCalles.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rptCategorias.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptCategorias.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Sys\frmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sys\frmConfiguracion.Designer.cs">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Administracion\frmAsistenteIntimacionesPorDeuda.resx">
+      <DependentUpon>frmAsistenteIntimacionesPorDeuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscadores\frmBuscar.resx">
+      <DependentUpon>frmBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscadores\frmBuscarSocio.resx">
+      <DependentUpon>frmBuscarSocio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmAnalisisDeudor.resx">
+      <DependentUpon>frmAnalisisDeudor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmAnalisisCobranzasPosteriores.resx">
+      <DependentUpon>frmAnalisisCobranzasPosteriores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmAnalisisEvolucionMensual.resx">
+      <DependentUpon>frmAnalisisEvolucionMensual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmAnalisisFacturacion.resx">
+      <DependentUpon>frmAnalisisFacturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmAnalisisUsuariosSocios.resx">
+      <DependentUpon>frmAnalisisUsuariosSocios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmCierreCajas.resx">
+      <DependentUpon>frmCierreCajas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmCambiarCaja.resx">
+      <DependentUpon>frmCambiarCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmCobranza.resx">
+      <DependentUpon>frmCobranza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmCobranzasConceptosParticulares.resx">
+      <DependentUpon>frmCobranzasConceptosParticulares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmListadoCobranzasAFIP.resx">
+      <DependentUpon>frmListadoCobranzasAFIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmListadoDeudoresRecientes.resx">
+      <DependentUpon>frmListadoDeudoresRecientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmListadoGralDeudores.resx">
+      <DependentUpon>frmListadoGralDeudores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmListadoGralSocioSinDeuda.resx">
+      <DependentUpon>frmListadoGralSocioSinDeuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmResumenDiario.resx">
+      <DependentUpon>frmResumenDiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\frmConfiguracionesPestanias.resx">
+      <DependentUpon>frmConfiguracionesPestanias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\frmGestionMoratorias.resx">
+      <DependentUpon>frmGestionMoratorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\frmFacturacion.resx">
+      <DependentUpon>frmFacturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\frmImprimirFactura.resx">
+      <DependentUpon>frmImprimirFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cobranza\frmRecaudacion.resx">
+      <DependentUpon>frmRecaudacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\frmReFacturar.resx">
+      <DependentUpon>frmReFacturar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\frmResumenFacturacion.resx">
+      <DependentUpon>frmResumenFacturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <EmbeddedResource Include="Facturacion\Reportes\rptResumenFacturacionXzonaXBarrio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenFacturacionXzonaXBarrio.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\rptResumenFacturacionXBarrioXzona.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenFacturacionXBarrioXzona.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\rptResumenSubDiario.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenSubDiario.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\rptResumenXBarrio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenXBarrio.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\rptResumenXConcepto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenXConcepto.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\rptResumenXConceptoXBarrio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenXConceptoXBarrio.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\rptResumenXTarifa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptResumenXTarifa.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmAvisosVariosASocios.resx">
+      <DependentUpon>frmAvisosVariosASocios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCargaEstados.resx">
+      <DependentUpon>frmCargaEstados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFacturasSeleccion.resx">
+      <DependentUpon>frmFacturasSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmIntimacionesDeudasConvenios.resx">
+      <DependentUpon>frmIntimacionesDeudasConvenios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmPadronDeSociosPorDistrito.resx">
+      <DependentUpon>frmPadronDeSociosPorDistrito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmPadronGeneralSocios.resx">
+      <DependentUpon>frmPadronGeneralSocios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmPreautorizacionCobroSinInteres.resx">
+      <DependentUpon>frmPreautorizacionCobroSinInteres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmResumenConveniosPagosFirmados.resx">
+      <DependentUpon>frmResumenConveniosPagosFirmados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmSociosCodene.resx">
+      <DependentUpon>frmSociosCodene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmSociosEnProcesoJudicial.resx">
+      <DependentUpon>frmSociosEnProcesoJudicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmSociosEnSituacionEspecial.resx">
+      <DependentUpon>frmSociosEnSituacionEspecial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmSociosIntimados.resx">
+      <DependentUpon>frmSociosIntimados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Encabezado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Encabezado.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptFacturas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptFacturas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rutas\frmImprimirHojaRuta.resx">
+      <DependentUpon>frmImprimirHojaRuta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\frmTerminales.resx">
+      <DependentUpon>frmTerminales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seguridad\frmUsuarios.resx">
+      <DependentUpon>frmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sys\frmGeneraPeriodos.resx">
+      <DependentUpon>frmGeneraPeriodos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAcciones.resx">
+      <DependentUpon>frmAcciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAccionesAM.resx">
+      <DependentUpon>frmAccionesAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBarrio.resx">
+      <DependentUpon>frmBarrio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConceptosParticulares.resx">
+      <DependentUpon>frmConceptosParticulares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvenioNuevo.resx">
+      <DependentUpon>frmConvenioNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvenioPago.resx">
+      <DependentUpon>frmConvenioPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvenios.resx">
+      <DependentUpon>frmConvenios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCuentaCorriente.resx">
+      <DependentUpon>frmCuentaCorriente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetalleFactura.resx">
+      <DependentUpon>frmDetalleFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFacturas.resx">
+      <DependentUpon>frmFacturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFiltro.resx">
+      <DependentUpon>FrmFiltro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalles.resx">
+      <DependentUpon>frmCalles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategorias.resx">
+      <DependentUpon>frmCategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConcepto.resx">
+      <DependentUpon>frmConcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadoConexion.resx">
+      <DependentUpon>frmEstadoConexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadoPJ.resx">
+      <DependentUpon>frmEstadoPJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstudio.resx">
+      <DependentUpon>frmEstudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIntimacion.resx">
+      <DependentUpon>frmIntimacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMediciones.resx">
+      <DependentUpon>frmMediciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmObservaciones.resx">
+      <DependentUpon>frmObservaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSituacionEspecial.resx">
+      <DependentUpon>frmSituacionEspecial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSocio.resx">
+      <DependentUpon>frmSocio.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTarifa.resx">
+      <DependentUpon>frmTarifa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipoConexion.resx">
+      <DependentUpon>frmTipoConexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipoDocumento.resx">
+      <DependentUpon>frmTipoDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMedianera.resx">
+      <DependentUpon>frmMedianera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProvincia.resx">
+      <DependentUpon>frmProvincia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipoIntimacion.resx">
+      <DependentUpon>frmTipoIntimacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTipoIVA.resx">
+      <DependentUpon>FrmTipoIVA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVentanaInformativa.resx">
+      <DependentUpon>frmVentanaInformativa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZona.resx">
+      <DependentUpon>frmZona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptProvincias.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptProvincias.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\frmReportes.resx">
+      <DependentUpon>frmReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptBarrios.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptBarrios.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptCalles.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCalles.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rptCategorias.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptCategorias.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sys\frmConfiguracion.resx">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Facturacion\Reportes\dsResumen.xsc">
+      <DependentUpon>dsResumen.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Reportes\dsResumen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsResumen.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Reportes\dsResumen.xss">
+      <DependentUpon>dsResumen.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Rutas\Reportes\dsRutas.xsc">
+      <DependentUpon>dsRutas.xsd</DependentUpon>
+    </None>
+    <None Include="Rutas\Reportes\dsRutas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRutas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Rutas\Reportes\dsRutas.xss">
+      <DependentUpon>dsRutas.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.cooperativa.implement\com.cooperativa.implement.csproj">
+      <Project>{AA9B8F89-C5FB-4F91-BC7C-2096AAA59860}</Project>
+      <Name>com.cooperativa.implement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\com.cooperativa.services\com.cooperativa.services.csproj">
+      <Project>{36A8ACBB-85DC-4FC5-942D-892F12BA7826}</Project>
+      <Name>com.cooperativa.services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favicon32.ico" />
+    <None Include="Reportes\dsGenerico.xsc">
+      <DependentUpon>dsGenerico.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\dsGenerico.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGenerico.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes\dsGenerico.xss">
+      <DependentUpon>dsGenerico.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\SocioAnterior32.png" />
+    <None Include="Resources\SocioFin32.png" />
+    <None Include="Resources\SocioInicio32.png" />
+    <None Include="Resources\SocioSiguiente32.png" />
+    <None Include="Resources\filtro32.png" />
+    <None Include="Resources\anterior32.png" />
+    <None Include="Resources\fin32.png" />
+    <None Include="Resources\inicio32.png" />
+    <None Include="Resources\siguiente32.png" />
+    <None Include="Resources\editar32.png" />
+    <None Include="Resources\logoCopeBackground.png" />
+    <None Include="Resources\editarSocio32.png" />
+    <None Include="Resources\eliminar32.png" />
+    <None Include="Resources\eliminarSocio32.png" />
+    <None Include="Resources\favicon32.png" />
+    <None Include="Resources\imprimir32.png" />
+    <None Include="Resources\nuevo32.png" />
+    <None Include="Resources\nuevoSocio32.png" />
+    <None Include="Resources\socios32.png" />
+    <None Include="Resources\stop.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\information.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\bonus.png" />
+    <None Include="Resources\attention.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Administracion\Reportes\" />
+    <Folder Include="Cobranza\Reportes\" />
+    <Folder Include="Imagenes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

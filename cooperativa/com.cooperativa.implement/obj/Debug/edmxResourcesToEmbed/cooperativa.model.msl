@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cooperativaModelStoreContainer" CdmEntityContainer="cooperativaEntities">
+    <EntitySetMapping Name="cod_barrios">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_barrios">
+        <MappingFragment StoreEntitySet="cod_barrios">
+          <ScalarProperty Name="barrio" ColumnName="barrio" />
+          <ScalarProperty Name="id_barrio" ColumnName="id_barrio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_cajas">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_cajas">
+        <MappingFragment StoreEntitySet="cod_cajas">
+          <ScalarProperty Name="cobro_manual" ColumnName="cobro_manual" />
+          <ScalarProperty Name="caja_activa" ColumnName="caja_activa" />
+          <ScalarProperty Name="fecha_cobro_distinta" ColumnName="fecha_cobro_distinta" />
+          <ScalarProperty Name="caja" ColumnName="caja" />
+          <ScalarProperty Name="id_caja" ColumnName="id_caja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_calles">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_calles">
+        <MappingFragment StoreEntitySet="cod_calles">
+          <ScalarProperty Name="normalizado" ColumnName="normalizado" />
+          <ScalarProperty Name="calle" ColumnName="calle" />
+          <ScalarProperty Name="id_calle" ColumnName="id_calle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_categorias">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_categorias">
+        <MappingFragment StoreEntitySet="cod_categorias">
+          <ScalarProperty Name="categoria" ColumnName="categoria" />
+          <ScalarProperty Name="id_categoria" ColumnName="id_categoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_conexiones">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_conexiones">
+        <MappingFragment StoreEntitySet="cod_conexiones">
+          <ScalarProperty Name="conexion" ColumnName="conexion" />
+          <ScalarProperty Name="id_conexion" ColumnName="id_conexion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_documentos">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_documentos">
+        <MappingFragment StoreEntitySet="cod_documentos">
+          <ScalarProperty Name="documento" ColumnName="documento" />
+          <ScalarProperty Name="id_documento" ColumnName="id_documento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_estados_pago">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_estados_pago">
+        <MappingFragment StoreEntitySet="cod_estados_pago">
+          <ScalarProperty Name="estado_pago" ColumnName="estado_pago" />
+          <ScalarProperty Name="id_estado_pago" ColumnName="id_estado_pago" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_estados_pj">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_estados_pj">
+        <MappingFragment StoreEntitySet="cod_estados_pj">
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id_cod_estado_pj" ColumnName="id_cod_estado_pj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_estados_socios">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_estados_socios">
+        <MappingFragment StoreEntitySet="cod_estados_socios">
+          <ScalarProperty Name="duracion_meses" ColumnName="duracion_meses" />
+          <ScalarProperty Name="seleccionable" ColumnName="seleccionable" />
+          <ScalarProperty Name="requiere_fin" ColumnName="requiere_fin" />
+          <ScalarProperty Name="facturar" ColumnName="facturar" />
+          <ScalarProperty Name="estado_socio" ColumnName="estado_socio" />
+          <ScalarProperty Name="id_estado_socio" ColumnName="id_estado_socio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_estudios">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_estudios">
+        <MappingFragment StoreEntitySet="cod_estudios">
+          <ScalarProperty Name="contacto" ColumnName="contacto" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion" ColumnName="direccion" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id_estudio" ColumnName="id_estudio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_formulas">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_formulas">
+        <MappingFragment StoreEntitySet="cod_formulas">
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="formula" ColumnName="formula" />
+          <ScalarProperty Name="id_formula" ColumnName="id_formula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_impuestos">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_impuestos">
+        <MappingFragment StoreEntitySet="cod_impuestos">
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="credito_fiscal" ColumnName="credito_fiscal" />
+          <ScalarProperty Name="vigencia_hasta" ColumnName="vigencia_hasta" />
+          <ScalarProperty Name="vigencia_desde" ColumnName="vigencia_desde" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+          <ScalarProperty Name="impuesto" ColumnName="impuesto" />
+          <ScalarProperty Name="id_impuesto" ColumnName="id_impuesto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_intimaciones">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_intimaciones">
+        <MappingFragment StoreEntitySet="cod_intimaciones">
+          <ScalarProperty Name="intimacion" ColumnName="intimacion" />
+          <ScalarProperty Name="id_intimacion" ColumnName="id_intimacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_localidades">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_localidades">
+        <MappingFragment StoreEntitySet="cod_localidades">
+          <ScalarProperty Name="codigoPostal" ColumnName="codigoPostal" />
+          <ScalarProperty Name="localidad" ColumnName="localidad" />
+          <ScalarProperty Name="id_localidad" ColumnName="id_localidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_materiales">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_materiales">
+        <MappingFragment StoreEntitySet="cod_materiales">
+          <ScalarProperty Name="material" ColumnName="material" />
+          <ScalarProperty Name="id_material" ColumnName="id_material" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_medianeras">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_medianeras">
+        <MappingFragment StoreEntitySet="cod_medianeras">
+          <ScalarProperty Name="medianera" ColumnName="medianera" />
+          <ScalarProperty Name="id_medianera" ColumnName="id_medianera" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_movimientos">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_movimientos">
+        <MappingFragment StoreEntitySet="cod_movimientos">
+          <ScalarProperty Name="movimiento" ColumnName="movimiento" />
+          <ScalarProperty Name="id_movimiento" ColumnName="id_movimiento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_permisos">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_permisos">
+        <MappingFragment StoreEntitySet="cod_permisos">
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="permiso" ColumnName="permiso" />
+          <ScalarProperty Name="id_permiso" ColumnName="id_permiso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_prestador">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_prestador">
+        <MappingFragment StoreEntitySet="cod_prestador">
+          <ScalarProperty Name="prestador" ColumnName="prestador" />
+          <ScalarProperty Name="id_prestador" ColumnName="id_prestador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_provincias">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_provincias">
+        <MappingFragment StoreEntitySet="cod_provincias">
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+          <ScalarProperty Name="id_provincia" ColumnName="id_provincia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_situacion_especial">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_situacion_especial">
+        <MappingFragment StoreEntitySet="cod_situacion_especial">
+          <ScalarProperty Name="situacion_especial" ColumnName="situacion_especial" />
+          <ScalarProperty Name="id_situacion_especial" ColumnName="id_situacion_especial" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_zonas">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_zonas">
+        <MappingFragment StoreEntitySet="cod_zonas">
+          <ScalarProperty Name="imprimir" ColumnName="imprimir" />
+          <ScalarProperty Name="zona" ColumnName="zona" />
+          <ScalarProperty Name="id_zona" ColumnName="id_zona" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="codene">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.codene">
+        <MappingFragment StoreEntitySet="codene">
+          <ScalarProperty Name="FechaBaja" ColumnName="FechaBaja" />
+          <ScalarProperty Name="fechaAlta" ColumnName="fechaAlta" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="id_codene" ColumnName="id_codene" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="conceptos_particulares">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.conceptos_particulares">
+        <MappingFragment StoreEntitySet="conceptos_particulares">
+          <ScalarProperty Name="detalles" ColumnName="detalles" />
+          <ScalarProperty Name="id_factura" ColumnName="id_factura" />
+          <ScalarProperty Name="facturado" ColumnName="facturado" />
+          <ScalarProperty Name="importe" ColumnName="importe" />
+          <ScalarProperty Name="id_concepto" ColumnName="id_concepto" />
+          <ScalarProperty Name="id_periodo" ColumnName="id_periodo" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="id_concepto_particular" ColumnName="id_concepto_particular" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cuentas_corrientes">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cuentas_corrientes">
+        <MappingFragment StoreEntitySet="cuentas_corrientes">
+          <ScalarProperty Name="importe_saldo" ColumnName="importe_saldo" />
+          <ScalarProperty Name="importe_credito" ColumnName="importe_credito" />
+          <ScalarProperty Name="importe_debito" ColumnName="importe_debito" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_cobranza" ColumnName="id_cobranza" />
+          <ScalarProperty Name="id_movimiento" ColumnName="id_movimiento" />
+          <ScalarProperty Name="id_factura" ColumnName="id_factura" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="id_cuenta_corriente" ColumnName="id_cuenta_corriente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="estado_socio">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.estado_socio">
+        <MappingFragment StoreEntitySet="estado_socio">
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="fechaBaja" ColumnName="fechaBaja" />
+          <ScalarProperty Name="fechaAlta" ColumnName="fechaAlta" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="id_estado_socio" ColumnName="id_estado_socio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="intimacion">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.intimacion">
+        <MappingFragment StoreEntitySet="intimacion">
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="id_intimacion" ColumnName="id_intimacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="periodos">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.periodos">
+        <MappingFragment StoreEntitySet="periodos">
+          <ScalarProperty Name="facturado" ColumnName="facturado" />
+          <ScalarProperty Name="fecha_tercer_venc" ColumnName="fecha_tercer_venc" />
+          <ScalarProperty Name="fecha_segundo_venc" ColumnName="fecha_segundo_venc" />
+          <ScalarProperty Name="fecha_primer_venc" ColumnName="fecha_primer_venc" />
+          <ScalarProperty Name="fecha_facturacion" ColumnName="fecha_facturacion" />
+          <ScalarProperty Name="id_periodo" ColumnName="id_periodo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="proceso_judicial">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.proceso_judicial">
+        <MappingFragment StoreEntitySet="proceso_judicial">
+          <ScalarProperty Name="id_Estudio" ColumnName="id_Estudio" />
+          <ScalarProperty Name="id_Socio" ColumnName="id_Socio" />
+          <ScalarProperty Name="fechaResolucion" ColumnName="fechaResolucion" />
+          <ScalarProperty Name="fechaAlta" ColumnName="fechaAlta" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="id_proceso_judicial" ColumnName="id_proceso_judicial" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="seg_codigos_eventos">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.seg_codigos_eventos">
+        <MappingFragment StoreEntitySet="seg_codigos_eventos">
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="seg_log_sistema">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.seg_log_sistema">
+        <MappingFragment StoreEntitySet="seg_log_sistema">
+          <ScalarProperty Name="detalles" ColumnName="detalles" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+          <ScalarProperty Name="id_terminal" ColumnName="id_terminal" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_log" ColumnName="id_log" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="seg_terminales">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.seg_terminales">
+        <MappingFragment StoreEntitySet="seg_terminales">
+          <ScalarProperty Name="fecha_bloqueo" ColumnName="fecha_bloqueo" />
+          <ScalarProperty Name="intento_nro" ColumnName="intento_nro" />
+          <ScalarProperty Name="bloqueada" ColumnName="bloqueada" />
+          <ScalarProperty Name="habilitada" ColumnName="habilitada" />
+          <ScalarProperty Name="terminal" ColumnName="terminal" />
+          <ScalarProperty Name="id_terminal" ColumnName="id_terminal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="seg_usuarios">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.seg_usuarios">
+        <MappingFragment StoreEntitySet="seg_usuarios">
+          <ScalarProperty Name="mantenimiento" ColumnName="mantenimiento" />
+          <ScalarProperty Name="viviendas_cobranza" ColumnName="viviendas_cobranza" />
+          <ScalarProperty Name="viviendas_reportes" ColumnName="viviendas_reportes" />
+          <ScalarProperty Name="viviendas_modificar_socios" ColumnName="viviendas_modificar_socios" />
+          <ScalarProperty Name="viviendas_crear_socios" ColumnName="viviendas_crear_socios" />
+          <ScalarProperty Name="control_actividad" ColumnName="control_actividad" />
+          <ScalarProperty Name="configurar_sistema" ColumnName="configurar_sistema" />
+          <ScalarProperty Name="desbloquear_terminales" ColumnName="desbloquear_terminales" />
+          <ScalarProperty Name="desbloquear_usuarios" ColumnName="desbloquear_usuarios" />
+          <ScalarProperty Name="admin_terminales" ColumnName="admin_terminales" />
+          <ScalarProperty Name="admin_usuarios" ColumnName="admin_usuarios" />
+          <ScalarProperty Name="autorizar_convenios_sin_interes" ColumnName="autorizar_convenios_sin_interes" />
+          <ScalarProperty Name="autorizar_convenios" ColumnName="autorizar_convenios" />
+          <ScalarProperty Name="listado_cortes" ColumnName="listado_cortes" />
+          <ScalarProperty Name="generar_intimaciones" ColumnName="generar_intimaciones" />
+          <ScalarProperty Name="cobranza_medios_electronicos" ColumnName="cobranza_medios_electronicos" />
+          <ScalarProperty Name="autorizar_cobro_sin_interes" ColumnName="autorizar_cobro_sin_interes" />
+          <ScalarProperty Name="reportes_cobranza" ColumnName="reportes_cobranza" />
+          <ScalarProperty Name="cobranza" ColumnName="cobranza" />
+          <ScalarProperty Name="codene" ColumnName="codene" />
+          <ScalarProperty Name="proceso_judicial" ColumnName="proceso_judicial" />
+          <ScalarProperty Name="listados_socios" ColumnName="listados_socios" />
+          <ScalarProperty Name="modificar_socio" ColumnName="modificar_socio" />
+          <ScalarProperty Name="crear_socio" ColumnName="crear_socio" />
+          <ScalarProperty Name="reportes_facturacion" ColumnName="reportes_facturacion" />
+          <ScalarProperty Name="imprimir_facturas" ColumnName="imprimir_facturas" />
+          <ScalarProperty Name="refacturar_socio" ColumnName="refacturar_socio" />
+          <ScalarProperty Name="anular_facturacion" ColumnName="anular_facturacion" />
+          <ScalarProperty Name="facturar" ColumnName="facturar" />
+          <ScalarProperty Name="bloqueado" ColumnName="bloqueado" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="usuario" ColumnName="usuario" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="socios_conexion">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.socios_conexion">
+        <MappingFragment StoreEntitySet="socios_conexion">
+          <ScalarProperty Name="adic_domicilio" ColumnName="adic_domicilio" />
+          <ScalarProperty Name="zona" ColumnName="zona" />
+          <ScalarProperty Name="distrito_electoral" ColumnName="distrito_electoral" />
+          <ScalarProperty Name="dpto" ColumnName="dpto" />
+          <ScalarProperty Name="piso" ColumnName="piso" />
+          <ScalarProperty Name="calle_altura" ColumnName="calle_altura" />
+          <ScalarProperty Name="calle" ColumnName="calle" />
+          <ScalarProperty Name="barrio" ColumnName="barrio" />
+          <ScalarProperty Name="marca_medidor" ColumnName="marca_medidor" />
+          <ScalarProperty Name="medidor" ColumnName="medidor" />
+          <ScalarProperty Name="diametro_red" ColumnName="diametro_red" />
+          <ScalarProperty Name="tipo_material" ColumnName="tipo_material" />
+          <ScalarProperty Name="profundidad_red" ColumnName="profundidad_red" />
+          <ScalarProperty Name="distancia_a_red" ColumnName="distancia_a_red" />
+          <ScalarProperty Name="tipo_conexion" ColumnName="tipo_conexion" />
+          <ScalarProperty Name="medianera" ColumnName="medianera" />
+          <ScalarProperty Name="ubicacion_servicio" ColumnName="ubicacion_servicio" />
+          <ScalarProperty Name="id_Socio" ColumnName="id_Socio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="socios_debito_bancario">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.socios_debito_bancario">
+        <MappingFragment StoreEntitySet="socios_debito_bancario">
+          <ScalarProperty Name="id_Debito_Bancario" ColumnName="id_Debito_Bancario" />
+          <ScalarProperty Name="cbu" ColumnName="cbu" />
+          <ScalarProperty Name="banco" ColumnName="banco" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="socios_lote">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.socios_lote">
+        <MappingFragment StoreEntitySet="socios_lote">
+          <ScalarProperty Name="adic_domicilio" ColumnName="adic_domicilio" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+          <ScalarProperty Name="localidad" ColumnName="localidad" />
+          <ScalarProperty Name="cp" ColumnName="cp" />
+          <ScalarProperty Name="orden_reparto" ColumnName="orden_reparto" />
+          <ScalarProperty Name="ruta_reparto" ColumnName="ruta_reparto" />
+          <ScalarProperty Name="nomenclatura" ColumnName="nomenclatura" />
+          <ScalarProperty Name="dpto" ColumnName="dpto" />
+          <ScalarProperty Name="piso" ColumnName="piso" />
+          <ScalarProperty Name="calle_altura" ColumnName="calle_altura" />
+          <ScalarProperty Name="calle" ColumnName="calle" />
+          <ScalarProperty Name="lote" ColumnName="lote" />
+          <ScalarProperty Name="manzana" ColumnName="manzana" />
+          <ScalarProperty Name="barrio" ColumnName="barrio" />
+          <ScalarProperty Name="id_Socio" ColumnName="id_Socio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="socios_varios">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.socios_varios">
+        <MappingFragment StoreEntitySet="socios_varios">
+          <ScalarProperty Name="intimado" ColumnName="intimado" />
+          <ScalarProperty Name="situacion_especial" ColumnName="situacion_especial" />
+          <ScalarProperty Name="fecha_convenio_coop_luz" ColumnName="fecha_convenio_coop_luz" />
+          <ScalarProperty Name="id_coop_luz" ColumnName="id_coop_luz" />
+          <ScalarProperty Name="conyuge_documento" ColumnName="conyuge_documento" />
+          <ScalarProperty Name="conyuge_tipo_documento" ColumnName="conyuge_tipo_documento" />
+          <ScalarProperty Name="conyuge_nombre" ColumnName="conyuge_nombre" />
+          <ScalarProperty Name="profesion" ColumnName="profesion" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tarifas">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.tarifas">
+        <MappingFragment StoreEntitySet="tarifas">
+          <ScalarProperty Name="activa" ColumnName="activa" />
+          <ScalarProperty Name="meses_venc" ColumnName="meses_venc" />
+          <ScalarProperty Name="requiere_fin" ColumnName="requiere_fin" />
+          <ScalarProperty Name="recargo_minimo" ColumnName="recargo_minimo" />
+          <ScalarProperty Name="bonificacion" ColumnName="bonificacion" />
+          <ScalarProperty Name="usuario_residencial" ColumnName="usuario_residencial" />
+          <ScalarProperty Name="abono" ColumnName="abono" />
+          <ScalarProperty Name="valor_m3" ColumnName="valor_m3" />
+          <ScalarProperty Name="cargo_fijo" ColumnName="cargo_fijo" />
+          <ScalarProperty Name="abreviatura" ColumnName="abreviatura" />
+          <ScalarProperty Name="tarifa" ColumnName="tarifa" />
+          <ScalarProperty Name="id_tarifa" ColumnName="id_tarifa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="acciones">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.acciones">
+        <MappingFragment StoreEntitySet="acciones">
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="id_terminal" ColumnName="id_terminal" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="finalizado" ColumnName="finalizado" />
+          <ScalarProperty Name="pendientes" ColumnName="pendientes" />
+          <ScalarProperty Name="facturadas" ColumnName="facturadas" />
+          <ScalarProperty Name="cuotas" ColumnName="cuotas" />
+          <ScalarProperty Name="valor_cuota" ColumnName="valor_cuota" />
+          <ScalarProperty Name="importe" ColumnName="importe" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="id_accion" ColumnName="id_accion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuario">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.usuario">
+        <MappingFragment StoreEntitySet="usuario">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="mantenimiento" ColumnName="mantenimiento" />
+          <ScalarProperty Name="judicial_codene" ColumnName="judicial_codene" />
+          <ScalarProperty Name="listados_padrones" ColumnName="listados_padrones" />
+          <ScalarProperty Name="autorizarConvenios" ColumnName="autorizarConvenios" />
+          <ScalarProperty Name="autorizarCobroSI" ColumnName="autorizarCobroSI" />
+          <ScalarProperty Name="administracion" ColumnName="administracion" />
+          <ScalarProperty Name="configurar" ColumnName="configurar" />
+          <ScalarProperty Name="reparar_optimizar_respaldo" ColumnName="reparar_optimizar_respaldo" />
+          <ScalarProperty Name="avisosDeuda_listadosCortes" ColumnName="avisosDeuda_listadosCortes" />
+          <ScalarProperty Name="listados_reportes" ColumnName="listados_reportes" />
+          <ScalarProperty Name="cobranza_cierreCaja" ColumnName="cobranza_cierreCaja" />
+          <ScalarProperty Name="impresion_reimpresion" ColumnName="impresion_reimpresion" />
+          <ScalarProperty Name="facturacion_anulacion" ColumnName="facturacion_anulacion" />
+          <ScalarProperty Name="modificarDatos" ColumnName="modificarDatos" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="error">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.error">
+        <MappingFragment StoreEntitySet="error">
+          <ScalarProperty Name="host" ColumnName="host" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="parametros" ColumnName="parametros" />
+          <ScalarProperty Name="componente" ColumnName="componente" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="modulo" ColumnName="modulo" />
+          <ScalarProperty Name="mensaje" ColumnName="mensaje" />
+          <ScalarProperty Name="funcion" ColumnName="funcion" />
+          <ScalarProperty Name="targetSite" ColumnName="targetSite" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="id_Error" ColumnName="id_Error" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aud_log">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.aud_log">
+        <MappingFragment StoreEntitySet="aud_log">
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="id_evento" ColumnName="id_evento" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="accion" ColumnName="accion" />
+          <ScalarProperty Name="id_tabla" ColumnName="id_tabla" />
+          <ScalarProperty Name="id_aud_log" ColumnName="id_aud_log" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="socios">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.socios">
+        <MappingFragment StoreEntitySet="socios">
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+          <ScalarProperty Name="categoria" ColumnName="categoria" />
+          <ScalarProperty Name="cuit" ColumnName="cuit" />
+          <ScalarProperty Name="iva" ColumnName="iva" />
+          <ScalarProperty Name="fin_tarifa" ColumnName="fin_tarifa" />
+          <ScalarProperty Name="tarifa" ColumnName="tarifa" />
+          <ScalarProperty Name="fin_estado" ColumnName="fin_estado" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="fecha_alta" ColumnName="fecha_alta" />
+          <ScalarProperty Name="documento" ColumnName="documento" />
+          <ScalarProperty Name="tipo_documento" ColumnName="tipo_documento" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="subcodigo_socio" ColumnName="subcodigo_socio" />
+          <ScalarProperty Name="codigo_socio" ColumnName="codigo_socio" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cobranzas">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cobranzas">
+        <MappingFragment StoreEntitySet="cobranzas">
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="id_terminal" ColumnName="id_terminal" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="fecha_cobro" ColumnName="fecha_cobro" />
+          <ScalarProperty Name="iva_descuento_convenio" ColumnName="iva_descuento_convenio" />
+          <ScalarProperty Name="descuento_convenio" ColumnName="descuento_convenio" />
+          <ScalarProperty Name="importe" ColumnName="importe" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="id_recibo" ColumnName="id_recibo" />
+          <ScalarProperty Name="id_factura" ColumnName="id_factura" />
+          <ScalarProperty Name="id_caja" ColumnName="id_caja" />
+          <ScalarProperty Name="id_cobranza" ColumnName="id_cobranza" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="facturas_detalles">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.facturas_detalles">
+        <MappingFragment StoreEntitySet="facturas_detalles">
+          <ScalarProperty Name="idTipo" ColumnName="idTipo" />
+          <ScalarProperty Name="idOrden" ColumnName="idOrden" />
+          <ScalarProperty Name="importe" ColumnName="importe" />
+          <ScalarProperty Name="id_concepto" ColumnName="id_concepto" />
+          <ScalarProperty Name="id_factura" ColumnName="id_factura" />
+          <ScalarProperty Name="id_detalle" ColumnName="id_detalle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sys_configuracion">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.sys_configuracion">
+        <MappingFragment StoreEntitySet="sys_configuracion">
+          <ScalarProperty Name="observacion" ColumnName="observacion" />
+          <ScalarProperty Name="valor" ColumnName="valor" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id_configuracion" ColumnName="id_configuracion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="facturas">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.facturas">
+        <MappingFragment StoreEntitySet="facturas">
+          <ScalarProperty Name="importeTotal" ColumnName="importeTotal" />
+          <ScalarProperty Name="importeNeto" ColumnName="importeNeto" />
+          <ScalarProperty Name="neto2" ColumnName="neto2" />
+          <ScalarProperty Name="neto1" ColumnName="neto1" />
+          <ScalarProperty Name="cobrado" ColumnName="cobrado" />
+          <ScalarProperty Name="fechaPago" ColumnName="fechaPago" />
+          <ScalarProperty Name="id_convenio" ColumnName="id_convenio" />
+          <ScalarProperty Name="id_tarifa" ColumnName="id_tarifa" />
+          <ScalarProperty Name="id_estadoPago" ColumnName="id_estadoPago" />
+          <ScalarProperty Name="id_medicion" ColumnName="id_medicion" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="id_periodo" ColumnName="id_periodo" />
+          <ScalarProperty Name="id_factura" ColumnName="id_factura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cod_conceptos">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.cod_conceptos">
+        <MappingFragment StoreEntitySet="cod_conceptos">
+          <ScalarProperty Name="aplicacion" ColumnName="aplicacion" />
+          <ScalarProperty Name="aplicar_descuento" ColumnName="aplicar_descuento" />
+          <ScalarProperty Name="aplicar_recargo" ColumnName="aplicar_recargo" />
+          <ScalarProperty Name="aplicar_iva" ColumnName="aplicar_iva" />
+          <ScalarProperty Name="concepto_particular" ColumnName="concepto_particular" />
+          <ScalarProperty Name="tipo_signo" ColumnName="tipo_signo" />
+          <ScalarProperty Name="variable" ColumnName="variable" />
+          <ScalarProperty Name="id_formula" ColumnName="id_formula" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="orden_concepto" ColumnName="orden_concepto" />
+          <ScalarProperty Name="concepto" ColumnName="concepto" />
+          <ScalarProperty Name="id_concepto" ColumnName="id_concepto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="convenios">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.convenios">
+        <MappingFragment StoreEntitySet="convenios">
+          <ScalarProperty Name="moratoria" ColumnName="moratoria" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="id_terminal" ColumnName="id_terminal" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="tipo_descuento_recargo" ColumnName="tipo_descuento_recargo" />
+          <ScalarProperty Name="importe_descuento_recargo" ColumnName="importe_descuento_recargo" />
+          <ScalarProperty Name="porcentaje_descuento_recargo" ColumnName="porcentaje_descuento_recargo" />
+          <ScalarProperty Name="convenio_judicial" ColumnName="convenio_judicial" />
+          <ScalarProperty Name="cuota_iva" ColumnName="cuota_iva" />
+          <ScalarProperty Name="iva_facturas" ColumnName="iva_facturas" />
+          <ScalarProperty Name="finalizado" ColumnName="finalizado" />
+          <ScalarProperty Name="pendientes" ColumnName="pendientes" />
+          <ScalarProperty Name="facturadas" ColumnName="facturadas" />
+          <ScalarProperty Name="cuotas" ColumnName="cuotas" />
+          <ScalarProperty Name="valor_cuota" ColumnName="valor_cuota" />
+          <ScalarProperty Name="importe_total" ColumnName="importe_total" />
+          <ScalarProperty Name="fecha_convenio" ColumnName="fecha_convenio" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="id_convenio" ColumnName="id_convenio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="detalles_moratoria">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.detalles_moratoria">
+        <MappingFragment StoreEntitySet="detalles_moratoria">
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+          <ScalarProperty Name="cuota_hasta" ColumnName="cuota_hasta" />
+          <ScalarProperty Name="cuota_desde" ColumnName="cuota_desde" />
+          <ScalarProperty Name="idmoratoria" ColumnName="idmoratoria" />
+          <ScalarProperty Name="iddetalles_moratoria" ColumnName="iddetalles_moratoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="moratorias">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.moratorias">
+        <MappingFragment StoreEntitySet="moratorias">
+          <ScalarProperty Name="limitar" ColumnName="limitar" />
+          <ScalarProperty Name="cantidad_cuotas_max" ColumnName="cantidad_cuotas_max" />
+          <ScalarProperty Name="vigencia_hasta" ColumnName="vigencia_hasta" />
+          <ScalarProperty Name="vigencia_desde" ColumnName="vigencia_desde" />
+          <ScalarProperty Name="idmoratorias" ColumnName="idmoratorias" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="socios_mediciones">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.socios_mediciones">
+        <MappingFragment StoreEntitySet="socios_mediciones">
+          <ScalarProperty Name="id_periodo" ColumnName="id_periodo" />
+          <ScalarProperty Name="id_socio" ColumnName="id_socio" />
+          <ScalarProperty Name="lectura" ColumnName="lectura" />
+          <ScalarProperty Name="consumo" ColumnName="consumo" />
+          <ScalarProperty Name="fecha_lectura" ColumnName="fecha_lectura" />
+          <ScalarProperty Name="id_medicion" ColumnName="id_medicion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="detalles_moratoria">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.detalles_moratoria">
+        <MappingFragment StoreEntitySet="detalles_moratoria">
+          <ScalarProperty Name="descuento" ColumnName="descuento" />
+          <ScalarProperty Name="cuota_hasta" ColumnName="cuota_hasta" />
+          <ScalarProperty Name="cuota_desde" ColumnName="cuota_desde" />
+          <ScalarProperty Name="idmoratoria" ColumnName="idmoratoria" />
+          <ScalarProperty Name="iddetalles_moratoria" ColumnName="iddetalles_moratoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="moratorias">
+      <EntityTypeMapping TypeName="com.cooperativa.implement.moratorias">
+        <MappingFragment StoreEntitySet="moratorias">
+          <ScalarProperty Name="limitar" ColumnName="limitar" />
+          <ScalarProperty Name="cantidad_cuotas_max" ColumnName="cantidad_cuotas_max" />
+          <ScalarProperty Name="vigencia_hasta" ColumnName="vigencia_hasta" />
+          <ScalarProperty Name="vigencia_desde" ColumnName="vigencia_desde" />
+          <ScalarProperty Name="idmoratorias" ColumnName="idmoratorias" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

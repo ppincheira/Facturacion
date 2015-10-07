@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cooperativaModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="cooperativaModelStoreContainer">
+    <EntitySet Name="acciones" EntityType="cooperativaModel.Store.acciones" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="aud_log" EntityType="cooperativaModel.Store.aud_log" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cobranzas" EntityType="cooperativaModel.Store.cobranzas" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_barrios" EntityType="cooperativaModel.Store.cod_barrios" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_cajas" EntityType="cooperativaModel.Store.cod_cajas" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_calles" EntityType="cooperativaModel.Store.cod_calles" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_categorias" EntityType="cooperativaModel.Store.cod_categorias" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_conceptos" EntityType="cooperativaModel.Store.cod_conceptos" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_conexiones" EntityType="cooperativaModel.Store.cod_conexiones" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_documentos" EntityType="cooperativaModel.Store.cod_documentos" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_estados_pago" EntityType="cooperativaModel.Store.cod_estados_pago" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_estados_pj" EntityType="cooperativaModel.Store.cod_estados_pj" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_estados_socios" EntityType="cooperativaModel.Store.cod_estados_socios" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_estudios" EntityType="cooperativaModel.Store.cod_estudios" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_formulas" EntityType="cooperativaModel.Store.cod_formulas" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_impuestos" EntityType="cooperativaModel.Store.cod_impuestos" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_intimaciones" EntityType="cooperativaModel.Store.cod_intimaciones" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_localidades" EntityType="cooperativaModel.Store.cod_localidades" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_materiales" EntityType="cooperativaModel.Store.cod_materiales" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_medianeras" EntityType="cooperativaModel.Store.cod_medianeras" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_movimientos" EntityType="cooperativaModel.Store.cod_movimientos" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_permisos" EntityType="cooperativaModel.Store.cod_permisos" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_prestador" EntityType="cooperativaModel.Store.cod_prestador" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_provincias" EntityType="cooperativaModel.Store.cod_provincias" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_situacion_especial" EntityType="cooperativaModel.Store.cod_situacion_especial" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cod_zonas" EntityType="cooperativaModel.Store.cod_zonas" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="codene" EntityType="cooperativaModel.Store.codene" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="conceptos_particulares" EntityType="cooperativaModel.Store.conceptos_particulares" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="convenios" EntityType="cooperativaModel.Store.convenios" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="cuentas_corrientes" EntityType="cooperativaModel.Store.cuentas_corrientes" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="detalles_moratoria" EntityType="cooperativaModel.Store.detalles_moratoria" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="error" EntityType="cooperativaModel.Store.error" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="estado_socio" EntityType="cooperativaModel.Store.estado_socio" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="facturas" EntityType="cooperativaModel.Store.facturas" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="facturas_detalles" EntityType="cooperativaModel.Store.facturas_detalles" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="intimacion" EntityType="cooperativaModel.Store.intimacion" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="moratorias" EntityType="cooperativaModel.Store.moratorias" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="periodos" EntityType="cooperativaModel.Store.periodos" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="proceso_judicial" EntityType="cooperativaModel.Store.proceso_judicial" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="seg_codigos_eventos" EntityType="cooperativaModel.Store.seg_codigos_eventos" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="seg_log_sistema" EntityType="cooperativaModel.Store.seg_log_sistema" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="seg_terminales" EntityType="cooperativaModel.Store.seg_terminales" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="seg_usuarios" EntityType="cooperativaModel.Store.seg_usuarios" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="socios" EntityType="cooperativaModel.Store.socios" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="socios_conexion" EntityType="cooperativaModel.Store.socios_conexion" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="socios_debito_bancario" EntityType="cooperativaModel.Store.socios_debito_bancario" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="socios_lote" EntityType="cooperativaModel.Store.socios_lote" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="socios_mediciones" EntityType="cooperativaModel.Store.socios_mediciones" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="socios_varios" EntityType="cooperativaModel.Store.socios_varios" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="sys_configuracion" EntityType="cooperativaModel.Store.sys_configuracion" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="tarifas" EntityType="cooperativaModel.Store.tarifas" store:Type="Tables" Schema="cooperativa" />
+    <EntitySet Name="usuario" EntityType="cooperativaModel.Store.usuario" store:Type="Tables" Schema="cooperativa" />
+  </EntityContainer>
+  <EntityType Name="acciones">
+    <Key>
+      <PropertyRef Name="id_accion" />
+    </Key>
+    <Property Name="id_accion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="importe" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="valor_cuota" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="cuotas" Type="int" />
+    <Property Name="facturadas" Type="int" />
+    <Property Name="pendientes" Type="int" />
+    <Property Name="finalizado" Type="bit" />
+    <Property Name="id_usuario" Type="int" />
+    <Property Name="id_terminal" Type="int" />
+    <Property Name="fecha_registro" Type="datetime" />
+  </EntityType>
+  <EntityType Name="aud_log">
+    <Key>
+      <PropertyRef Name="id_aud_log" />
+    </Key>
+    <Property Name="id_aud_log" Type="int" Nullable="false" />
+    <Property Name="id_tabla" Type="int" />
+    <Property Name="accion" Type="varchar" MaxLength="50" />
+    <Property Name="idUsuario" Type="int" />
+    <Property Name="fecha" Type="datetime" />
+    <Property Name="id_evento" Type="int" />
+    <Property Name="descripcion" Type="varchar" MaxLength="5000" />
+  </EntityType>
+  <EntityType Name="cobranzas">
+    <Key>
+      <PropertyRef Name="id_cobranza" />
+    </Key>
+    <Property Name="id_cobranza" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_caja" Type="int" />
+    <Property Name="id_factura" Type="int" />
+    <Property Name="id_recibo" Type="int" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="importe" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="descuento_convenio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="iva_descuento_convenio" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="fecha_cobro" Type="date" />
+    <Property Name="id_usuario" Type="int" />
+    <Property Name="id_terminal" Type="int" />
+    <Property Name="fecha_registro" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="cod_barrios">
+    <Key>
+      <PropertyRef Name="id_barrio" />
+    </Key>
+    <Property Name="id_barrio" Type="uint" Nullable="false" />
+    <Property Name="barrio" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="cod_cajas">
+    <Key>
+      <PropertyRef Name="id_caja" />
+    </Key>
+    <Property Name="id_caja" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="caja" Type="varchar" MaxLength="50" />
+    <Property Name="fecha_cobro_distinta" Type="bit" />
+    <Property Name="caja_activa" Type="bit" />
+    <Property Name="cobro_manual" Type="bit" />
+  </EntityType>
+  <EntityType Name="cod_calles">
+    <Key>
+      <PropertyRef Name="id_calle" />
+    </Key>
+    <Property Name="id_calle" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="calle" Type="varchar" MaxLength="100" />
+    <Property Name="normalizado" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="cod_categorias">
+    <Key>
+      <PropertyRef Name="id_categoria" />
+    </Key>
+    <Property Name="id_categoria" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="categoria" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="cod_conceptos">
+    <Key>
+      <PropertyRef Name="id_concepto" />
+    </Key>
+    <Property Name="id_concepto" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="concepto" Type="varchar" MaxLength="50" />
+    <Property Name="orden_concepto" Type="int" />
+    <Property Name="activo" Type="bit" />
+    <Property Name="id_formula" Type="int" />
+    <Property Name="variable" Type="decimal" Precision="18" Scale="8" />
+    <Property Name="tipo_signo" Type="int" />
+    <Property Name="aplicacion" Type="int" />
+    <Property Name="concepto_particular" Type="bit" />
+    <Property Name="aplicar_iva" Type="bit" />
+    <Property Name="aplicar_recargo" Type="bit" />
+    <Property Name="aplicar_descuento" Type="bit" />
+  </EntityType>
+  <EntityType Name="cod_conexiones">
+    <Key>
+      <PropertyRef Name="id_conexion" />
+    </Key>
+    <Property Name="id_conexion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="conexion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="cod_documentos">
+    <Key>
+      <PropertyRef Name="id_documento" />
+    </Key>
+    <Property Name="id_documento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="documento" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="cod_estados_pago">
+    <Key>
+      <PropertyRef Name="id_estado_pago" />
+    </Key>
+    <Property Name="id_estado_pago" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="estado_pago" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="cod_estados_pj">
+    <Key>
+      <PropertyRef Name="id_cod_estado_pj" />
+    </Key>
+    <Property Name="id_cod_estado_pj" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="cod_estados_socios">
+    <Key>
+      <PropertyRef Name="id_estado_socio" />
+    </Key>
+    <Property Name="id_estado_socio" Type="uint" Nullable="false" />
+    <Property Name="estado_socio" Type="varchar" MaxLength="100" />
+    <Property Name="facturar" Type="bit" />
+    <Property Name="requiere_fin" Type="bit" />
+    <Property Name="seleccionable" Type="bit" />
+    <Property Name="duracion_meses" Type="int" />
+  </EntityType>
+  <EntityType Name="cod_estudios">
+    <Key>
+      <PropertyRef Name="id_estudio" />
+    </Key>
+    <Property Name="id_estudio" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="varchar" MaxLength="200" />
+    <Property Name="direccion" Type="varchar" MaxLength="200" />
+    <Property Name="telefono" Type="varchar" MaxLength="100" />
+    <Property Name="contacto" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="cod_formulas">
+    <Key>
+      <PropertyRef Name="id_formula" />
+    </Key>
+    <Property Name="id_formula" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="formula" Type="varchar" MaxLength="50" />
+    <Property Name="descripcion" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="cod_impuestos">
+    <Key>
+      <PropertyRef Name="id_impuesto" />
+    </Key>
+    <Property Name="id_impuesto" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="impuesto" Type="varchar" MaxLength="50" />
+    <Property Name="porcentaje" Type="decimal" Scale="3" />
+    <Property Name="vigencia_desde" Type="datetime" />
+    <Property Name="vigencia_hasta" Type="datetime" />
+    <Property Name="credito_fiscal" Type="bit" />
+    <Property Name="activo" Type="bit" />
+  </EntityType>
+  <EntityType Name="cod_intimaciones">
+    <Key>
+      <PropertyRef Name="id_intimacion" />
+    </Key>
+    <Property Name="id_intimacion" Type="uint" Nullable="false" />
+    <Property Name="intimacion" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="cod_localidades">
+    <Key>
+      <PropertyRef Name="id_localidad" />
+    </Key>
+    <Property Name="id_localidad" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="localidad" Type="varchar" MaxLength="200" />
+    <Property Name="codigoPostal" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="cod_materiales">
+    <Key>
+      <PropertyRef Name="id_material" />
+    </Key>
+    <Property Name="id_material" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="material" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="cod_medianeras">
+    <Key>
+      <PropertyRef Name="id_medianera" />
+    </Key>
+    <Property Name="id_medianera" Type="uint" Nullable="false" />
+    <Property Name="medianera" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="cod_movimientos">
+    <Key>
+      <PropertyRef Name="id_movimiento" />
+    </Key>
+    <Property Name="id_movimiento" Type="uint" Nullable="false" />
+    <Property Name="movimiento" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="cod_permisos">
+    <Key>
+      <PropertyRef Name="id_permiso" />
+    </Key>
+    <Property Name="id_permiso" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="permiso" Type="varchar" MaxLength="50" />
+    <Property Name="descripcion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="cod_prestador">
+    <Key>
+      <PropertyRef Name="id_prestador" />
+    </Key>
+    <Property Name="id_prestador" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="prestador" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="cod_provincias">
+    <Key>
+      <PropertyRef Name="id_provincia" />
+    </Key>
+    <Property Name="id_provincia" Type="uint" Nullable="false" />
+    <Property Name="provincia" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="cod_situacion_especial">
+    <Key>
+      <PropertyRef Name="id_situacion_especial" />
+    </Key>
+    <Property Name="id_situacion_especial" Type="int" Nullable="false" />
+    <Property Name="situacion_especial" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="cod_zonas">
+    <Key>
+      <PropertyRef Name="id_zona" />
+    </Key>
+    <Property Name="id_zona" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="zona" Type="varchar" MaxLength="50" />
+    <Property Name="imprimir" Type="bit" />
+  </EntityType>
+  <EntityType Name="codene">
+    <Key>
+      <PropertyRef Name="id_codene" />
+    </Key>
+    <Property Name="id_codene" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="fechaAlta" Type="date" />
+    <Property Name="FechaBaja" Type="date" />
+  </EntityType>
+  <EntityType Name="conceptos_particulares">
+    <Key>
+      <PropertyRef Name="id_concepto_particular" />
+    </Key>
+    <Property Name="id_concepto_particular" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="id_periodo" Type="varchar" MaxLength="6" />
+    <Property Name="id_concepto" Type="int" />
+    <Property Name="importe" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="facturado" Type="bit" />
+    <Property Name="id_factura" Type="int" />
+    <Property Name="detalles" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="convenios">
+    <Key>
+      <PropertyRef Name="id_convenio" />
+    </Key>
+    <Property Name="id_convenio" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="fecha_convenio" Type="date" />
+    <Property Name="importe_total" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="valor_cuota" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="cuotas" Type="int" />
+    <Property Name="facturadas" Type="int" />
+    <Property Name="pendientes" Type="int" />
+    <Property Name="finalizado" Type="bit" />
+    <Property Name="iva_facturas" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="cuota_iva" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="convenio_judicial" Type="bit" />
+    <Property Name="porcentaje_descuento_recargo" Type="decimal" Nullable="false" Precision="7" Scale="2" />
+    <Property Name="importe_descuento_recargo" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="tipo_descuento_recargo" Type="int" />
+    <Property Name="id_usuario" Type="int" />
+    <Property Name="id_terminal" Type="int" />
+    <Property Name="fecha_registro" Type="datetime" />
+    <Property Name="moratoria" Type="bit" />
+  </EntityType>
+  <EntityType Name="cuentas_corrientes">
+    <Key>
+      <PropertyRef Name="id_cuenta_corriente" />
+    </Key>
+    <Property Name="id_cuenta_corriente" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="id_factura" Type="int" />
+    <Property Name="id_movimiento" Type="int" />
+    <Property Name="id_cobranza" Type="int" Nullable="false" />
+    <Property Name="fecha" Type="date" />
+    <Property Name="importe_debito" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="importe_credito" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="importe_saldo" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="detalles_moratoria">
+    <Key>
+      <PropertyRef Name="iddetalles_moratoria" />
+    </Key>
+    <Property Name="iddetalles_moratoria" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="idmoratoria" Type="int" Nullable="false" />
+    <Property Name="cuota_desde" Type="int" />
+    <Property Name="cuota_hasta" Type="int" />
+    <Property Name="descuento" Type="decimal" Scale="2" />
+  </EntityType>
+  <EntityType Name="error">
+    <Key>
+      <PropertyRef Name="id_Error" />
+    </Key>
+    <Property Name="id_Error" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fecha" Type="datetime" />
+    <Property Name="targetSite" Type="varchar" MaxLength="5000" />
+    <Property Name="funcion" Type="varchar" MaxLength="5000" />
+    <Property Name="mensaje" Type="varchar" MaxLength="5000" />
+    <Property Name="modulo" Type="varchar" MaxLength="5000" />
+    <Property Name="tipo" Type="varchar" MaxLength="5000" />
+    <Property Name="componente" Type="varchar" MaxLength="5000" />
+    <Property Name="parametros" Type="varchar" MaxLength="5000" />
+    <Property Name="id_usuario" Type="int" />
+    <Property Name="ip" Type="varchar" MaxLength="100" />
+    <Property Name="host" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="estado_socio">
+    <Key>
+      <PropertyRef Name="id_estado_socio" />
+    </Key>
+    <Property Name="id_estado_socio" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="tipo" Type="int" />
+    <Property Name="fechaAlta" Type="datetime" />
+    <Property Name="fechaBaja" Type="datetime" />
+    <Property Name="id_socio" Type="int" />
+  </EntityType>
+  <EntityType Name="facturas">
+    <Key>
+      <PropertyRef Name="id_factura" />
+    </Key>
+    <Property Name="id_factura" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_periodo" Type="varchar" MaxLength="6" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="id_medicion" Type="int" />
+    <Property Name="id_estadoPago" Type="int" />
+    <Property Name="id_tarifa" Type="int" />
+    <Property Name="id_convenio" Type="int" />
+    <Property Name="fechaPago" Type="datetime" />
+    <Property Name="cobrado" Type="float" />
+    <Property Name="neto1" Type="float" />
+    <Property Name="neto2" Type="float" />
+    <Property Name="importeNeto" Type="float" />
+    <Property Name="importeTotal" Type="float" />
+  </EntityType>
+  <EntityType Name="facturas_detalles">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Name="id_detalle" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_factura" Type="int" />
+    <Property Name="id_concepto" Type="int" />
+    <Property Name="importe" Type="decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="idOrden" Type="int" />
+    <Property Name="idTipo" Type="decimal" />
+  </EntityType>
+  <EntityType Name="intimacion">
+    <Key>
+      <PropertyRef Name="id_intimacion" />
+    </Key>
+    <Property Name="id_intimacion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="tipo" Type="int" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="fecha" Type="date" />
+  </EntityType>
+  <EntityType Name="moratorias">
+    <Key>
+      <PropertyRef Name="idmoratorias" />
+    </Key>
+    <Property Name="idmoratorias" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="vigencia_desde" Type="datetime" />
+    <Property Name="vigencia_hasta" Type="datetime" />
+    <Property Name="cantidad_cuotas_max" Type="int" />
+    <Property Name="limitar" Type="bit" />
+  </EntityType>
+  <EntityType Name="periodos">
+    <Key>
+      <PropertyRef Name="id_periodo" />
+    </Key>
+    <Property Name="id_periodo" Type="varchar" Nullable="false" MaxLength="6" />
+    <Property Name="fecha_facturacion" Type="date" />
+    <Property Name="fecha_primer_venc" Type="date" />
+    <Property Name="fecha_segundo_venc" Type="date" />
+    <Property Name="fecha_tercer_venc" Type="date" />
+    <Property Name="facturado" Type="bit" />
+  </EntityType>
+  <EntityType Name="proceso_judicial">
+    <Key>
+      <PropertyRef Name="id_proceso_judicial" />
+    </Key>
+    <Property Name="id_proceso_judicial" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_Socio" Type="int" />
+    <Property Name="estado" Type="int" />
+    <Property Name="fechaAlta" Type="date" />
+    <Property Name="fechaResolucion" Type="date" />
+    <Property Name="id_Estudio" Type="int" />
+  </EntityType>
+  <EntityType Name="seg_codigos_eventos">
+    <Key>
+      <PropertyRef Name="id_evento" />
+    </Key>
+    <Property Name="id_evento" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descripcion" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="seg_log_sistema">
+    <Key>
+      <PropertyRef Name="id_log" />
+    </Key>
+    <Property Name="id_log" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fecha" Type="date" Nullable="false" />
+    <Property Name="id_usuario" Type="int" />
+    <Property Name="id_terminal" Type="int" />
+    <Property Name="id_evento" Type="int" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="detalles" Type="varchar" MaxLength="512" />
+  </EntityType>
+  <EntityType Name="seg_terminales">
+    <Key>
+      <PropertyRef Name="id_terminal" />
+    </Key>
+    <Property Name="id_terminal" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="terminal" Type="varchar" MaxLength="255" />
+    <Property Name="habilitada" Type="bit" />
+    <Property Name="bloqueada" Type="bit" />
+    <Property Name="intento_nro" Type="int" />
+    <Property Name="fecha_bloqueo" Type="datetime" />
+  </EntityType>
+  <EntityType Name="seg_usuarios">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="usuario" Type="varchar" MaxLength="255" />
+    <Property Name="login" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="255" />
+    <Property Name="activo" Type="bit" />
+    <Property Name="bloqueado" Type="bit" />
+    <Property Name="facturar" Type="bit" />
+    <Property Name="anular_facturacion" Type="bit" />
+    <Property Name="refacturar_socio" Type="bit" />
+    <Property Name="imprimir_facturas" Type="bit" />
+    <Property Name="reportes_facturacion" Type="bit" />
+    <Property Name="crear_socio" Type="bit" />
+    <Property Name="modificar_socio" Type="bit" />
+    <Property Name="listados_socios" Type="bit" />
+    <Property Name="proceso_judicial" Type="bit" />
+    <Property Name="codene" Type="bit" />
+    <Property Name="cobranza" Type="bit" />
+    <Property Name="reportes_cobranza" Type="bit" />
+    <Property Name="autorizar_cobro_sin_interes" Type="bit" />
+    <Property Name="cobranza_medios_electronicos" Type="bit" />
+    <Property Name="generar_intimaciones" Type="bit" />
+    <Property Name="listado_cortes" Type="bit" />
+    <Property Name="autorizar_convenios" Type="bit" />
+    <Property Name="autorizar_convenios_sin_interes" Type="bit" />
+    <Property Name="admin_usuarios" Type="bit" />
+    <Property Name="admin_terminales" Type="bit" />
+    <Property Name="desbloquear_usuarios" Type="bit" />
+    <Property Name="desbloquear_terminales" Type="bit" />
+    <Property Name="configurar_sistema" Type="bit" />
+    <Property Name="control_actividad" Type="bool" />
+    <Property Name="viviendas_crear_socios" Type="bool" />
+    <Property Name="viviendas_modificar_socios" Type="bool" />
+    <Property Name="viviendas_reportes" Type="bool" />
+    <Property Name="viviendas_cobranza" Type="bit" />
+    <Property Name="mantenimiento" Type="bit" />
+  </EntityType>
+  <EntityType Name="socios">
+    <Key>
+      <PropertyRef Name="id_socio" />
+    </Key>
+    <Property Name="id_socio" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="codigo_socio" Type="varchar" MaxLength="6" />
+    <Property Name="subcodigo_socio" Type="varchar" MaxLength="2" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" />
+    <Property Name="tipo_documento" Type="int" />
+    <Property Name="documento" Type="int" />
+    <Property Name="fecha_alta" Type="datetime" />
+    <Property Name="estado" Type="int" />
+    <Property Name="fin_estado" Type="varchar" MaxLength="8" />
+    <Property Name="tarifa" Type="int" />
+    <Property Name="fin_tarifa" Type="varchar" MaxLength="8" />
+    <Property Name="iva" Type="int" />
+    <Property Name="cuit" Type="varchar" MaxLength="20" />
+    <Property Name="categoria" Type="int" />
+    <Property Name="observaciones" Type="text" />
+  </EntityType>
+  <EntityType Name="socios_conexion">
+    <Key>
+      <PropertyRef Name="id_Socio" />
+    </Key>
+    <Property Name="id_Socio" Type="int" Nullable="false" />
+    <Property Name="ubicacion_servicio" Type="float" />
+    <Property Name="medianera" Type="int" />
+    <Property Name="tipo_conexion" Type="int" />
+    <Property Name="distancia_a_red" Type="float" />
+    <Property Name="profundidad_red" Type="float" />
+    <Property Name="tipo_material" Type="int" />
+    <Property Name="diametro_red" Type="float" />
+    <Property Name="medidor" Type="varchar" MaxLength="12" />
+    <Property Name="marca_medidor" Type="varchar" MaxLength="50" />
+    <Property Name="barrio" Type="int" />
+    <Property Name="calle" Type="int" />
+    <Property Name="calle_altura" Type="varchar" MaxLength="45" />
+    <Property Name="piso" Type="varchar" MaxLength="45" />
+    <Property Name="dpto" Type="varchar" MaxLength="45" />
+    <Property Name="distrito_electoral" Type="int" />
+    <Property Name="zona" Type="int" />
+    <Property Name="adic_domicilio" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="socios_debito_bancario">
+    <Key>
+      <PropertyRef Name="id_Debito_Bancario" />
+    </Key>
+    <Property Name="id_Debito_Bancario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="banco" Type="int" />
+    <Property Name="cbu" Type="varchar" MaxLength="22" />
+  </EntityType>
+  <EntityType Name="socios_lote">
+    <Key>
+      <PropertyRef Name="id_Socio" />
+    </Key>
+    <Property Name="id_Socio" Type="int" Nullable="false" />
+    <Property Name="barrio" Type="int" />
+    <Property Name="manzana" Type="varchar" MaxLength="5" />
+    <Property Name="lote" Type="varchar" MaxLength="5" />
+    <Property Name="calle" Type="int" />
+    <Property Name="calle_altura" Type="varchar" MaxLength="5" />
+    <Property Name="piso" Type="varchar" MaxLength="30" />
+    <Property Name="dpto" Type="varchar" MaxLength="45" />
+    <Property Name="nomenclatura" Type="varchar" MaxLength="20" />
+    <Property Name="ruta_reparto" Type="int" />
+    <Property Name="orden_reparto" Type="int" />
+    <Property Name="cp" Type="varchar" MaxLength="40" />
+    <Property Name="localidad" Type="int" />
+    <Property Name="provincia" Type="int" />
+    <Property Name="adic_domicilio" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="socios_mediciones">
+    <Key>
+      <PropertyRef Name="id_medicion" />
+    </Key>
+    <Property Name="id_medicion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="fecha_lectura" Type="datetime" />
+    <Property Name="consumo" Type="int" />
+    <Property Name="lectura" Type="int" />
+    <Property Name="id_socio" Type="int" />
+    <Property Name="id_periodo" Type="int" />
+  </EntityType>
+  <EntityType Name="socios_varios">
+    <Key>
+      <PropertyRef Name="id_socio" />
+    </Key>
+    <Property Name="id_socio" Type="int" Nullable="false" />
+    <Property Name="profesion" Type="varchar" MaxLength="50" />
+    <Property Name="conyuge_nombre" Type="varchar" MaxLength="50" />
+    <Property Name="conyuge_tipo_documento" Type="int" />
+    <Property Name="conyuge_documento" Type="int" />
+    <Property Name="id_coop_luz" Type="varchar" MaxLength="9" />
+    <Property Name="fecha_convenio_coop_luz" Type="varchar" MaxLength="10" />
+    <Property Name="situacion_especial" Type="int" />
+    <Property Name="intimado" Type="bit" />
+  </EntityType>
+  <EntityType Name="sys_configuracion">
+    <Key>
+      <PropertyRef Name="id_configuracion" />
+    </Key>
+    <Property Name="id_configuracion" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" MaxLength="70" />
+    <Property Name="valor" Type="varchar" MaxLength="500" />
+    <Property Name="observacion" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tarifas">
+    <Key>
+      <PropertyRef Name="id_tarifa" />
+    </Key>
+    <Property Name="id_tarifa" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="tarifa" Type="varchar" MaxLength="150" />
+    <Property Name="abreviatura" Type="varchar" MaxLength="5" />
+    <Property Name="cargo_fijo" Type="decimal" Precision="18" Scale="6" />
+    <Property Name="valor_m3" Type="decimal" Precision="18" Scale="6" />
+    <Property Name="abono" Type="decimal" Precision="18" Scale="6" />
+    <Property Name="usuario_residencial" Type="bit" />
+    <Property Name="bonificacion" Type="bit" />
+    <Property Name="recargo_minimo" Type="bit" />
+    <Property Name="requiere_fin" Type="bit" />
+    <Property Name="meses_venc" Type="int" />
+    <Property Name="activa" Type="bit" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" />
+    <Property Name="login" Type="varchar" MaxLength="100" />
+    <Property Name="password" Type="varchar" MaxLength="100" />
+    <Property Name="modificarDatos" Type="bit" />
+    <Property Name="facturacion_anulacion" Type="bit" />
+    <Property Name="impresion_reimpresion" Type="bit" />
+    <Property Name="cobranza_cierreCaja" Type="bit" />
+    <Property Name="listados_reportes" Type="bit" />
+    <Property Name="avisosDeuda_listadosCortes" Type="bit" />
+    <Property Name="reparar_optimizar_respaldo" Type="bit" />
+    <Property Name="configurar" Type="bit" />
+    <Property Name="administracion" Type="bit" />
+    <Property Name="autorizarCobroSI" Type="bit" />
+    <Property Name="autorizarConvenios" Type="bit" />
+    <Property Name="listados_padrones" Type="bit" />
+    <Property Name="judicial_codene" Type="bit" />
+    <Property Name="mantenimiento" Type="bit" />
+    <Property Name="activo" Type="bit" />
+  </EntityType>
+</Schema>

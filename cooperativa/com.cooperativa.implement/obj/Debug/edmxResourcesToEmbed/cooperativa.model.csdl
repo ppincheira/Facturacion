@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="com.cooperativa.implement" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="cooperativaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cod_barrios" EntityType="com.cooperativa.implement.cod_barrios" />
+    <EntitySet Name="cod_cajas" EntityType="com.cooperativa.implement.cod_cajas" />
+    <EntitySet Name="cod_calles" EntityType="com.cooperativa.implement.cod_calles" />
+    <EntitySet Name="cod_categorias" EntityType="com.cooperativa.implement.cod_categorias" />
+    <EntitySet Name="cod_conexiones" EntityType="com.cooperativa.implement.cod_conexiones" />
+    <EntitySet Name="cod_documentos" EntityType="com.cooperativa.implement.cod_documentos" />
+    <EntitySet Name="cod_estados_pago" EntityType="com.cooperativa.implement.cod_estados_pago" />
+    <EntitySet Name="cod_estados_pj" EntityType="com.cooperativa.implement.cod_estados_pj" />
+    <EntitySet Name="cod_estados_socios" EntityType="com.cooperativa.implement.cod_estados_socios" />
+    <EntitySet Name="cod_estudios" EntityType="com.cooperativa.implement.cod_estudios" />
+    <EntitySet Name="cod_formulas" EntityType="com.cooperativa.implement.cod_formulas" />
+    <EntitySet Name="cod_impuestos" EntityType="com.cooperativa.implement.cod_impuestos" />
+    <EntitySet Name="cod_intimaciones" EntityType="com.cooperativa.implement.cod_intimaciones" />
+    <EntitySet Name="cod_localidades" EntityType="com.cooperativa.implement.cod_localidades" />
+    <EntitySet Name="cod_materiales" EntityType="com.cooperativa.implement.cod_materiales" />
+    <EntitySet Name="cod_medianeras" EntityType="com.cooperativa.implement.cod_medianeras" />
+    <EntitySet Name="cod_movimientos" EntityType="com.cooperativa.implement.cod_movimientos" />
+    <EntitySet Name="cod_permisos" EntityType="com.cooperativa.implement.cod_permisos" />
+    <EntitySet Name="cod_prestador" EntityType="com.cooperativa.implement.cod_prestador" />
+    <EntitySet Name="cod_provincias" EntityType="com.cooperativa.implement.cod_provincias" />
+    <EntitySet Name="cod_situacion_especial" EntityType="com.cooperativa.implement.cod_situacion_especial" />
+    <EntitySet Name="cod_zonas" EntityType="com.cooperativa.implement.cod_zonas" />
+    <EntitySet Name="codene" EntityType="com.cooperativa.implement.codene" />
+    <EntitySet Name="conceptos_particulares" EntityType="com.cooperativa.implement.conceptos_particulares" />
+    <EntitySet Name="cuentas_corrientes" EntityType="com.cooperativa.implement.cuentas_corrientes" />
+    <EntitySet Name="estado_socio" EntityType="com.cooperativa.implement.estado_socio" />
+    <EntitySet Name="intimacion" EntityType="com.cooperativa.implement.intimacion" />
+    <EntitySet Name="periodos" EntityType="com.cooperativa.implement.periodos" />
+    <EntitySet Name="proceso_judicial" EntityType="com.cooperativa.implement.proceso_judicial" />
+    <EntitySet Name="seg_codigos_eventos" EntityType="com.cooperativa.implement.seg_codigos_eventos" />
+    <EntitySet Name="seg_log_sistema" EntityType="com.cooperativa.implement.seg_log_sistema" />
+    <EntitySet Name="seg_terminales" EntityType="com.cooperativa.implement.seg_terminales" />
+    <EntitySet Name="seg_usuarios" EntityType="com.cooperativa.implement.seg_usuarios" />
+    <EntitySet Name="socios_conexion" EntityType="com.cooperativa.implement.socios_conexion" />
+    <EntitySet Name="socios_debito_bancario" EntityType="com.cooperativa.implement.socios_debito_bancario" />
+    <EntitySet Name="socios_lote" EntityType="com.cooperativa.implement.socios_lote" />
+    <EntitySet Name="socios_varios" EntityType="com.cooperativa.implement.socios_varios" />
+    <EntitySet Name="tarifas" EntityType="com.cooperativa.implement.tarifas" />
+    <EntitySet Name="acciones" EntityType="com.cooperativa.implement.acciones" />
+    <EntitySet Name="usuario" EntityType="com.cooperativa.implement.usuario" />
+    <EntitySet Name="error" EntityType="com.cooperativa.implement.error" />
+    <EntitySet Name="aud_log" EntityType="com.cooperativa.implement.aud_log" />
+    <EntitySet Name="socios" EntityType="com.cooperativa.implement.socios" />
+    <EntitySet Name="cobranzas" EntityType="com.cooperativa.implement.cobranzas" />
+    <EntitySet Name="facturas_detalles" EntityType="com.cooperativa.implement.facturas_detalles" />
+    <EntitySet Name="sys_configuracion" EntityType="com.cooperativa.implement.sys_configuracion" />
+    <EntitySet Name="facturas" EntityType="com.cooperativa.implement.facturas" />
+    <EntitySet Name="cod_conceptos" EntityType="com.cooperativa.implement.cod_conceptos" />
+    <EntitySet Name="convenios" EntityType="com.cooperativa.implement.convenios" />
+    <EntitySet Name="detalles_moratoria" EntityType="com.cooperativa.implement.detalles_moratoria" />
+    <EntitySet Name="moratorias" EntityType="com.cooperativa.implement.moratorias" />
+    <EntitySet Name="socios_mediciones" EntityType="com.cooperativa.implement.socios_mediciones" />
+  </EntityContainer>
+  <ComplexType Name="intimacion_GetByidSocio_Result" />
+  <EntityType Name="cod_barrios">
+    <Key>
+      <PropertyRef Name="id_barrio" />
+    </Key>
+    <Property Type="Int32" Name="id_barrio" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="barrio" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_cajas">
+    <Key>
+      <PropertyRef Name="id_caja" />
+    </Key>
+    <Property Type="Int32" Name="id_caja" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="caja" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="fecha_cobro_distinta" />
+    <Property Type="Boolean" Name="caja_activa" />
+    <Property Type="Boolean" Name="cobro_manual" />
+  </EntityType>
+  <EntityType Name="cod_calles">
+    <Key>
+      <PropertyRef Name="id_calle" />
+    </Key>
+    <Property Type="Int32" Name="id_calle" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="calle" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="normalizado" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_categorias">
+    <Key>
+      <PropertyRef Name="id_categoria" />
+    </Key>
+    <Property Type="Int32" Name="id_categoria" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="categoria" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_conexiones">
+    <Key>
+      <PropertyRef Name="id_conexion" />
+    </Key>
+    <Property Type="Int32" Name="id_conexion" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="conexion" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_documentos">
+    <Key>
+      <PropertyRef Name="id_documento" />
+    </Key>
+    <Property Type="Int32" Name="id_documento" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="documento" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_estados_pago">
+    <Key>
+      <PropertyRef Name="id_estado_pago" />
+    </Key>
+    <Property Type="Int32" Name="id_estado_pago" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="estado_pago" MaxLength="15" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_estados_pj">
+    <Key>
+      <PropertyRef Name="id_cod_estado_pj" />
+    </Key>
+    <Property Type="Int32" Name="id_cod_estado_pj" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" MaxLength="45" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_estados_socios">
+    <Key>
+      <PropertyRef Name="id_estado_socio" />
+    </Key>
+    <Property Type="Int32" Name="id_estado_socio" Nullable="false" />
+    <Property Type="String" Name="estado_socio" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="facturar" />
+    <Property Type="Boolean" Name="requiere_fin" />
+    <Property Type="Boolean" Name="seleccionable" />
+    <Property Type="Int32" Name="duracion_meses" />
+  </EntityType>
+  <EntityType Name="cod_estudios">
+    <Key>
+      <PropertyRef Name="id_estudio" />
+    </Key>
+    <Property Type="Int32" Name="id_estudio" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="direccion" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="telefono" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="contacto" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_formulas">
+    <Key>
+      <PropertyRef Name="id_formula" />
+    </Key>
+    <Property Type="Int64" Name="id_formula" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="formula" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="descripcion" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_impuestos">
+    <Key>
+      <PropertyRef Name="id_impuesto" />
+    </Key>
+    <Property Type="Int32" Name="id_impuesto" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="impuesto" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="porcentaje" />
+    <Property Type="DateTime" Name="vigencia_desde" />
+    <Property Type="DateTime" Name="vigencia_hasta" />
+    <Property Type="Boolean" Name="credito_fiscal" />
+    <Property Type="Boolean" Name="activo" />
+  </EntityType>
+  <EntityType Name="cod_intimaciones">
+    <Key>
+      <PropertyRef Name="id_intimacion" />
+    </Key>
+    <Property Type="Int64" Name="id_intimacion" Nullable="false" />
+    <Property Type="String" Name="intimacion" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_localidades">
+    <Key>
+      <PropertyRef Name="id_localidad" />
+    </Key>
+    <Property Type="Int32" Name="id_localidad" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="localidad" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="codigoPostal" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_materiales">
+    <Key>
+      <PropertyRef Name="id_material" />
+    </Key>
+    <Property Type="Int32" Name="id_material" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="material" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_medianeras">
+    <Key>
+      <PropertyRef Name="id_medianera" />
+    </Key>
+    <Property Type="Int32" Name="id_medianera" Nullable="false" />
+    <Property Type="String" Name="medianera" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_movimientos">
+    <Key>
+      <PropertyRef Name="id_movimiento" />
+    </Key>
+    <Property Type="Int32" Name="id_movimiento" Nullable="false" />
+    <Property Type="String" Name="movimiento" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_permisos">
+    <Key>
+      <PropertyRef Name="id_permiso" />
+    </Key>
+    <Property Type="Int32" Name="id_permiso" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="permiso" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="descripcion" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_prestador">
+    <Key>
+      <PropertyRef Name="id_prestador" />
+    </Key>
+    <Property Type="Int32" Name="id_prestador" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="prestador" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_provincias">
+    <Key>
+      <PropertyRef Name="id_provincia" />
+    </Key>
+    <Property Type="Int32" Name="id_provincia" Nullable="false" />
+    <Property Type="String" Name="provincia" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_situacion_especial">
+    <Key>
+      <PropertyRef Name="id_situacion_especial" />
+    </Key>
+    <Property Type="Int32" Name="id_situacion_especial" Nullable="false" />
+    <Property Type="String" Name="situacion_especial" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cod_zonas">
+    <Key>
+      <PropertyRef Name="id_zona" />
+    </Key>
+    <Property Type="Int32" Name="id_zona" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="zona" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="imprimir" />
+  </EntityType>
+  <EntityType Name="codene">
+    <Key>
+      <PropertyRef Name="id_codene" />
+    </Key>
+    <Property Type="Int32" Name="id_codene" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="DateTime" Name="fechaAlta" />
+    <Property Type="DateTime" Name="FechaBaja" />
+  </EntityType>
+  <EntityType Name="conceptos_particulares">
+    <Key>
+      <PropertyRef Name="id_concepto_particular" />
+    </Key>
+    <Property Type="Int32" Name="id_concepto_particular" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="String" Name="id_periodo" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="id_concepto" />
+    <Property Type="Decimal" Name="importe" Nullable="false" />
+    <Property Type="Boolean" Name="facturado" />
+    <Property Type="Int32" Name="id_factura" />
+    <Property Type="String" Name="detalles" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cuentas_corrientes">
+    <Key>
+      <PropertyRef Name="id_cuenta_corriente" />
+    </Key>
+    <Property Type="Int32" Name="id_cuenta_corriente" Nullable="false" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="Int32" Name="id_factura" />
+    <Property Type="Int32" Name="id_movimiento" />
+    <Property Type="Int32" Name="id_cobranza" Nullable="false" />
+    <Property Type="DateTime" Name="fecha" />
+    <Property Type="Decimal" Name="importe_debito" Nullable="false" />
+    <Property Type="Decimal" Name="importe_credito" Nullable="false" />
+    <Property Type="Decimal" Name="importe_saldo" Nullable="false" />
+  </EntityType>
+  <EntityType Name="estado_socio">
+    <Key>
+      <PropertyRef Name="id_estado_socio" />
+    </Key>
+    <Property Type="Int32" Name="id_estado_socio" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="tipo" />
+    <Property Type="DateTime" Name="fechaAlta" />
+    <Property Type="DateTime" Name="fechaBaja" />
+    <Property Type="Int32" Name="id_socio" />
+  </EntityType>
+  <EntityType Name="intimacion">
+    <Key>
+      <PropertyRef Name="id_intimacion" />
+    </Key>
+    <Property Type="Int32" Name="id_intimacion" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="tipo" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="DateTime" Name="fecha" />
+  </EntityType>
+  <EntityType Name="periodos">
+    <Key>
+      <PropertyRef Name="id_periodo" />
+    </Key>
+    <Property Type="String" Name="id_periodo" Nullable="false" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="fecha_facturacion" Nullable="true" />
+    <Property Type="DateTime" Name="fecha_primer_venc" Nullable="true" />
+    <Property Type="DateTime" Name="fecha_segundo_venc" Nullable="true" />
+    <Property Type="DateTime" Name="fecha_tercer_venc" Nullable="true" />
+    <Property Type="Boolean" Name="facturado" Nullable="true" />
+  </EntityType>
+  <EntityType Name="proceso_judicial">
+    <Key>
+      <PropertyRef Name="id_proceso_judicial" />
+    </Key>
+    <Property Type="Int32" Name="id_proceso_judicial" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="estado" />
+    <Property Type="DateTime" Name="fechaAlta" />
+    <Property Type="DateTime" Name="fechaResolucion" />
+    <Property Type="Int32" Name="id_Socio" />
+    <Property Type="Int32" Name="id_Estudio" />
+  </EntityType>
+  <EntityType Name="seg_codigos_eventos">
+    <Key>
+      <PropertyRef Name="id_evento" />
+    </Key>
+    <Property Type="Int64" Name="id_evento" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="descripcion" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="seg_log_sistema">
+    <Key>
+      <PropertyRef Name="id_log" />
+    </Key>
+    <Property Type="Int64" Name="id_log" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="fecha" Nullable="false" />
+    <Property Type="Int32" Name="id_usuario" />
+    <Property Type="Int32" Name="id_terminal" />
+    <Property Type="Int32" Name="id_evento" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="String" Name="detalles" MaxLength="512" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="seg_terminales">
+    <Key>
+      <PropertyRef Name="id_terminal" />
+    </Key>
+    <Property Type="Int32" Name="id_terminal" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="terminal" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="habilitada" />
+    <Property Type="Boolean" Name="bloqueada" />
+    <Property Type="Int32" Name="intento_nro" />
+    <Property Type="DateTime" Name="fecha_bloqueo" />
+  </EntityType>
+  <EntityType Name="seg_usuarios">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Type="Int32" Name="id_usuario" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="usuario" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="login" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="password" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="activo" />
+    <Property Type="Boolean" Name="bloqueado" />
+    <Property Type="Boolean" Name="facturar" />
+    <Property Type="Boolean" Name="anular_facturacion" />
+    <Property Type="Boolean" Name="refacturar_socio" />
+    <Property Type="Boolean" Name="imprimir_facturas" />
+    <Property Type="Boolean" Name="reportes_facturacion" />
+    <Property Type="Boolean" Name="crear_socio" />
+    <Property Type="Boolean" Name="modificar_socio" />
+    <Property Type="Boolean" Name="listados_socios" />
+    <Property Type="Boolean" Name="proceso_judicial" />
+    <Property Type="Boolean" Name="codene" />
+    <Property Type="Boolean" Name="cobranza" />
+    <Property Type="Boolean" Name="reportes_cobranza" />
+    <Property Type="Boolean" Name="autorizar_cobro_sin_interes" />
+    <Property Type="Boolean" Name="cobranza_medios_electronicos" />
+    <Property Type="Boolean" Name="generar_intimaciones" />
+    <Property Type="Boolean" Name="listado_cortes" />
+    <Property Type="Boolean" Name="autorizar_convenios" />
+    <Property Type="Boolean" Name="autorizar_convenios_sin_interes" />
+    <Property Type="Boolean" Name="admin_usuarios" />
+    <Property Type="Boolean" Name="admin_terminales" />
+    <Property Type="Boolean" Name="desbloquear_usuarios" />
+    <Property Type="Boolean" Name="desbloquear_terminales" />
+    <Property Type="Boolean" Name="configurar_sistema" />
+    <Property Type="Boolean" Name="control_actividad" />
+    <Property Type="Boolean" Name="viviendas_crear_socios" />
+    <Property Type="Boolean" Name="viviendas_modificar_socios" />
+    <Property Type="Boolean" Name="viviendas_reportes" />
+    <Property Type="Boolean" Name="viviendas_cobranza" />
+    <Property Type="Boolean" Name="mantenimiento" />
+  </EntityType>
+  <EntityType Name="socios_conexion">
+    <Key>
+      <PropertyRef Name="id_Socio" />
+    </Key>
+    <Property Type="Int32" Name="id_Socio" Nullable="false" />
+    <Property Type="Single" Name="ubicacion_servicio" />
+    <Property Type="Int32" Name="medianera" />
+    <Property Type="Int32" Name="tipo_conexion" />
+    <Property Type="Single" Name="distancia_a_red" />
+    <Property Type="Single" Name="profundidad_red" />
+    <Property Type="Int32" Name="tipo_material" />
+    <Property Type="Single" Name="diametro_red" />
+    <Property Type="String" Name="medidor" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="marca_medidor" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="barrio" />
+    <Property Type="Int32" Name="calle" />
+    <Property Type="String" Name="calle_altura" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="piso" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="dpto" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="distrito_electoral" />
+    <Property Type="Int32" Name="zona" />
+    <Property Type="String" Name="adic_domicilio" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="socios_debito_bancario">
+    <Key>
+      <PropertyRef Name="id_Debito_Bancario" />
+    </Key>
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="Int32" Name="banco" />
+    <Property Type="String" Name="cbu" MaxLength="22" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="id_Debito_Bancario" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="socios_lote">
+    <Key>
+      <PropertyRef Name="id_Socio" />
+    </Key>
+    <Property Type="Int32" Name="id_Socio" Nullable="false" />
+    <Property Type="Int32" Name="barrio" />
+    <Property Type="String" Name="manzana" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="lote" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="calle" />
+    <Property Type="String" Name="calle_altura" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="piso" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="dpto" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="nomenclatura" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ruta_reparto" />
+    <Property Type="Int32" Name="orden_reparto" />
+    <Property Type="String" Name="cp" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="localidad" />
+    <Property Type="Int32" Name="provincia" />
+    <Property Type="String" Name="adic_domicilio" MaxLength="200" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="socios_varios">
+    <Key>
+      <PropertyRef Name="id_socio" />
+    </Key>
+    <Property Type="Int32" Name="id_socio" Nullable="false" />
+    <Property Type="String" Name="profesion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="conyuge_nombre" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="conyuge_tipo_documento" />
+    <Property Type="Int32" Name="conyuge_documento" />
+    <Property Type="String" Name="id_coop_luz" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="fecha_convenio_coop_luz" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="situacion_especial" />
+    <Property Type="Boolean" Name="intimado" Nullable="true" />
+  </EntityType>
+  <EntityType Name="tarifas">
+    <Key>
+      <PropertyRef Name="id_tarifa" />
+    </Key>
+    <Property Type="Int32" Name="id_tarifa" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="tarifa" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="abreviatura" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Type="Decimal" Name="cargo_fijo" />
+    <Property Type="Decimal" Name="valor_m3" />
+    <Property Type="Decimal" Name="abono" />
+    <Property Type="Boolean" Name="usuario_residencial" />
+    <Property Type="Boolean" Name="bonificacion" />
+    <Property Type="Boolean" Name="recargo_minimo" />
+    <Property Type="Boolean" Name="requiere_fin" />
+    <Property Type="Int32" Name="meses_venc" />
+    <Property Type="Boolean" Name="activa" />
+  </EntityType>
+  <EntityType Name="acciones">
+    <Key>
+      <PropertyRef Name="id_accion" />
+    </Key>
+    <Property Type="Int32" Name="id_accion" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="DateTime" Name="fecha" />
+    <Property Type="Decimal" Name="importe" Nullable="false" />
+    <Property Type="Decimal" Name="valor_cuota" Nullable="false" />
+    <Property Type="Int32" Name="cuotas" />
+    <Property Type="Int32" Name="facturadas" />
+    <Property Type="Int32" Name="pendientes" />
+    <Property Type="Boolean" Name="finalizado" />
+    <Property Type="Int32" Name="id_usuario" />
+    <Property Type="Int32" Name="id_terminal" />
+    <Property Type="DateTime" Name="fecha_registro" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Type="String" Name="nombre" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="login" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="password" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="modificarDatos" />
+    <Property Type="Boolean" Name="facturacion_anulacion" />
+    <Property Type="Boolean" Name="impresion_reimpresion" />
+    <Property Type="Boolean" Name="cobranza_cierreCaja" />
+    <Property Type="Boolean" Name="listados_reportes" />
+    <Property Type="Boolean" Name="avisosDeuda_listadosCortes" />
+    <Property Type="Boolean" Name="reparar_optimizar_respaldo" />
+    <Property Type="Boolean" Name="configurar" />
+    <Property Type="Boolean" Name="administracion" />
+    <Property Type="Boolean" Name="autorizarCobroSI" />
+    <Property Type="Boolean" Name="autorizarConvenios" />
+    <Property Type="Boolean" Name="listados_padrones" />
+    <Property Type="Boolean" Name="judicial_codene" />
+    <Property Type="Boolean" Name="mantenimiento" />
+    <Property Type="Boolean" Name="activo" />
+    <Property Type="Int32" Name="id_usuario" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="error">
+    <Key>
+      <PropertyRef Name="id_Error" />
+    </Key>
+    <Property Type="Int32" Name="id_Error" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="fecha" />
+    <Property Type="String" Name="targetSite" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="funcion" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="mensaje" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="modulo" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="tipo" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="componente" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="parametros" MaxLength="5000" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="id_usuario" />
+    <Property Type="String" Name="ip" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="host" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="aud_log">
+    <Key>
+      <PropertyRef Name="id_aud_log" />
+    </Key>
+    <Property Type="Int32" Name="id_aud_log" Nullable="false" />
+    <Property Type="Int32" Name="id_tabla" />
+    <Property Type="String" Name="accion" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="idUsuario" />
+    <Property Type="DateTime" Name="fecha" />
+    <Property Type="Int32" Name="id_evento" />
+    <Property Type="String" Name="descripcion" MaxLength="5000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="socios">
+    <Key>
+      <PropertyRef Name="id_socio" />
+    </Key>
+    <Property Type="Int32" Name="id_socio" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="codigo_socio" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="subcodigo_socio" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="nombre" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="tipo_documento" />
+    <Property Type="Int32" Name="documento" />
+    <Property Type="DateTime" Name="fecha_alta" />
+    <Property Type="Int32" Name="estado" />
+    <Property Type="String" Name="fin_estado" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="tarifa" />
+    <Property Type="String" Name="fin_tarifa" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="iva" />
+    <Property Type="String" Name="cuit" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="categoria" />
+    <Property Type="String" Name="observaciones" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="cobranzas">
+    <Key>
+      <PropertyRef Name="id_cobranza" />
+    </Key>
+    <Property Type="Int32" Name="id_cobranza" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="id_caja" />
+    <Property Type="Int32" Name="id_factura" />
+    <Property Type="Int32" Name="id_recibo" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="Decimal" Name="importe" Nullable="false" />
+    <Property Type="Decimal" Name="descuento_convenio" />
+    <Property Type="Decimal" Name="iva_descuento_convenio" />
+    <Property Type="DateTime" Name="fecha_cobro" />
+    <Property Type="Int32" Name="id_usuario" />
+    <Property Type="Int32" Name="id_terminal" />
+    <Property Type="DateTime" Name="fecha_registro" Nullable="false" />
+  </EntityType>
+  <EntityType Name="facturas_detalles">
+    <Key>
+      <PropertyRef Name="id_detalle" />
+    </Key>
+    <Property Type="Int32" Name="id_detalle" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="id_factura" />
+    <Property Type="Int32" Name="id_concepto" />
+    <Property Type="Decimal" Name="importe" Nullable="false" />
+    <Property Type="Int32" Name="idOrden" />
+    <Property Type="Decimal" Name="idTipo" />
+  </EntityType>
+  <EntityType Name="sys_configuracion">
+    <Key>
+      <PropertyRef Name="id_configuracion" />
+    </Key>
+    <Property Type="Int32" Name="id_configuracion" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="nombre" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="valor" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="observacion" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="facturas">
+    <Key>
+      <PropertyRef Name="id_factura" />
+    </Key>
+    <Property Type="Int32" Name="id_factura" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="id_periodo" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="Int32" Name="id_medicion" />
+    <Property Type="Int32" Name="id_estadoPago" />
+    <Property Type="Int32" Name="id_tarifa" />
+    <Property Type="Int32" Name="id_convenio" />
+    <Property Type="DateTime" Name="fechaPago" />
+    <Property Type="Single" Name="cobrado" />
+    <Property Type="Single" Name="neto1" />
+    <Property Type="Single" Name="neto2" />
+    <Property Type="Single" Name="importeNeto" />
+    <Property Type="Single" Name="importeTotal" />
+  </EntityType>
+  <EntityType Name="cod_conceptos">
+    <Key>
+      <PropertyRef Name="id_concepto" />
+    </Key>
+    <Property Type="Int32" Name="id_concepto" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="concepto" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="orden_concepto" />
+    <Property Type="Boolean" Name="activo" />
+    <Property Type="Int32" Name="id_formula" />
+    <Property Type="Decimal" Name="variable" />
+    <Property Type="Int32" Name="tipo_signo" />
+    <Property Type="Int32" Name="aplicacion" Nullable="false" />
+    <Property Type="Boolean" Name="concepto_particular" />
+    <Property Type="Boolean" Name="aplicar_iva" />
+    <Property Type="Boolean" Name="aplicar_recargo" />
+    <Property Type="Boolean" Name="aplicar_descuento" />
+  </EntityType>
+  <EntityType Name="convenios">
+    <Key>
+      <PropertyRef Name="id_convenio" />
+    </Key>
+    <Property Type="Int32" Name="id_convenio" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="DateTime" Name="fecha_convenio" />
+    <Property Type="Decimal" Name="importe_total" Nullable="false" />
+    <Property Type="Decimal" Name="valor_cuota" Nullable="false" />
+    <Property Type="Int32" Name="cuotas" />
+    <Property Type="Int32" Name="facturadas" />
+    <Property Type="Int32" Name="pendientes" />
+    <Property Type="Boolean" Name="finalizado" />
+    <Property Type="Decimal" Name="iva_facturas" Nullable="false" />
+    <Property Type="Decimal" Name="cuota_iva" Nullable="false" />
+    <Property Type="Boolean" Name="convenio_judicial" />
+    <Property Type="Decimal" Name="porcentaje_descuento_recargo" Nullable="false" />
+    <Property Type="Decimal" Name="importe_descuento_recargo" Nullable="false" />
+    <Property Type="Int32" Name="tipo_descuento_recargo" />
+    <Property Type="Int32" Name="id_usuario" />
+    <Property Type="Int32" Name="id_terminal" />
+    <Property Type="DateTime" Name="fecha_registro" />
+    <Property Type="Boolean" Name="moratoria" />
+  </EntityType>
+  <EntityType Name="socios_mediciones">
+    <Key>
+      <PropertyRef Name="id_medicion" />
+    </Key>
+    <Property Type="Int32" Name="id_medicion" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="fecha_lectura" />
+    <Property Type="Int32" Name="consumo" />
+    <Property Type="Int32" Name="lectura" />
+    <Property Type="Int32" Name="id_socio" />
+    <Property Type="Int32" Name="id_periodo" />
+  </EntityType>
+  <EntityType Name="detalles_moratoria">
+    <Key>
+      <PropertyRef Name="iddetalles_moratoria" />
+    </Key>
+    <Property Type="Int32" Name="iddetalles_moratoria" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="idmoratoria" Nullable="false" />
+    <Property Type="Int32" Name="cuota_desde" />
+    <Property Type="Int32" Name="cuota_hasta" />
+    <Property Type="Decimal" Name="descuento" />
+  </EntityType>
+  <EntityType Name="moratorias">
+    <Key>
+      <PropertyRef Name="idmoratorias" />
+    </Key>
+    <Property Type="Int32" Name="idmoratorias" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="DateTime" Name="vigencia_desde" />
+    <Property Type="DateTime" Name="vigencia_hasta" />
+    <Property Type="Int32" Name="cantidad_cuotas_max" />
+    <Property Type="Boolean" Name="limitar" />
+  </EntityType>
+</Schema>

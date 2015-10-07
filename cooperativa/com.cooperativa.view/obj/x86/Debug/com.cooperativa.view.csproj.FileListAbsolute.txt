@@ -1,0 +1,263 @@
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Buscadores.frmBuscar.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Buscadores.frmBuscarSocio.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisEvolucionMensual.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisFacturacion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCierreCajas.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCambiarCaja.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCobranza.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCobranzasConceptosParticulares.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoCobranzasAFIP.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoDeudoresRecientes.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoGralDeudores.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoGralSocioSinDeuda.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmResumenDiario.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Configuracion.frmConfiguracionesPestanias.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Configuracion.frmGestionMoratorias.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmFacturacion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Facturacion.frmImprimirFactura.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmRecaudacion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Facturacion.frmReFacturar.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Facturacion.frmResumenFacturacion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmAvisosVariosASocios.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCargaEstados.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmFacturasSeleccion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmIntimacionesDeudasConvenios.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmPadronDeSociosPorDistrito.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmPadronGeneralSocios.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmPreautorizacionCobroSinInteres.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmResumenConveniosPagosFirmados.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosCodene.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosEnProcesoJudicial.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosEnSituacionEspecial.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosIntimados.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Rutas.frmImprimirHojaRuta.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Seguridad.frmTerminales.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Seguridad.frmUsuarios.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Sys.frmGeneraPeriodos.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmAcciones.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmAccionesAM.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmBarrio.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConceptosParticulares.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConvenioNuevo.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConvenioPago.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConvenios.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCuentaCorriente.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmDetalleFactura.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmFacturas.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.FrmFiltro.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCalles.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCategorias.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConcepto.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmEstadoConexion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmEstadoPJ.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmEstudio.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmIntimacion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmLogin.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmMediciones.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmObservaciones.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSituacionEspecial.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSocio.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTarifa.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTipoConexion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTipoDocumento.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmMedianera.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmProvincia.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTipoIntimacion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.FrmTipoIVA.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmVentanaInformativa.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmZona.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmMenu.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Properties.Resources.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Reportes.frmReportes.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Sys.frmConfiguracion.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.view.exe.config
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.view.exe
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.view.pdb
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.implement.dll
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.services.dll
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.implement.pdb
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.services.pdb
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.exe
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.pdb
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisCobranzasPosteriores.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisUsuariosSocios.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisDeudor.resources
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Administracion.frmAsistenteIntimacionesPorDeuda.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.view.exe.config
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.exe
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.pdb
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.view.exe
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.view.pdb
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.implement.dll
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.services.dll
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.implement.pdb
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.services.pdb
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.csprojResolveAssemblyReference.cache
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Administracion.frmAsistenteIntimacionesPorDeuda.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Buscadores.frmBuscar.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Buscadores.frmBuscarSocio.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisDeudor.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisCobranzasPosteriores.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisEvolucionMensual.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisFacturacion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisUsuariosSocios.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCierreCajas.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCambiarCaja.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCobranza.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCobranzasConceptosParticulares.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoCobranzasAFIP.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoDeudoresRecientes.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoGralDeudores.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoGralSocioSinDeuda.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmResumenDiario.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Configuracion.frmConfiguracionesPestanias.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Configuracion.frmGestionMoratorias.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmFacturacion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Facturacion.frmImprimirFactura.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmRecaudacion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Facturacion.frmReFacturar.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Facturacion.frmResumenFacturacion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmAvisosVariosASocios.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCargaEstados.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmFacturasSeleccion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmIntimacionesDeudasConvenios.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmPadronDeSociosPorDistrito.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmPadronGeneralSocios.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmPreautorizacionCobroSinInteres.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmResumenConveniosPagosFirmados.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosCodene.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosEnProcesoJudicial.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosEnSituacionEspecial.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosIntimados.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Rutas.frmImprimirHojaRuta.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Seguridad.frmTerminales.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Seguridad.frmUsuarios.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Sys.frmGeneraPeriodos.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmAcciones.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmAccionesAM.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmBarrio.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConceptosParticulares.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConvenioNuevo.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConvenioPago.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConvenios.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCuentaCorriente.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmDetalleFactura.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmFacturas.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.FrmFiltro.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCalles.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCategorias.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConcepto.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmEstadoConexion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmEstadoPJ.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmEstudio.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmIntimacion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmLogin.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmMediciones.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmObservaciones.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSituacionEspecial.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSocio.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTarifa.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTipoConexion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTipoDocumento.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmMedianera.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmProvincia.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTipoIntimacion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.FrmTipoIVA.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmVentanaInformativa.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmZona.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmMenu.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Properties.Resources.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Reportes.frmReportes.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Sys.frmConfiguracion.resources
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.csproj.GenerateResource.Cache
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.view.exe.config
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.exe
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.pdb
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Administracion.frmAsistenteIntimacionesPorDeuda.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Buscadores.frmBuscar.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Buscadores.frmBuscarSocio.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisDeudor.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisCobranzasPosteriores.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisEvolucionMensual.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisFacturacion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmAnalisisUsuariosSocios.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCierreCajas.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCambiarCaja.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCobranza.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmCobranzasConceptosParticulares.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoCobranzasAFIP.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoDeudoresRecientes.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoGralDeudores.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmListadoGralSocioSinDeuda.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmResumenDiario.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Configuracion.frmConfiguracionesPestanias.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Configuracion.frmGestionMoratorias.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmFacturacion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Facturacion.frmImprimirFactura.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Cobranza.frmRecaudacion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Facturacion.frmReFacturar.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Facturacion.frmResumenFacturacion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmAvisosVariosASocios.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCargaEstados.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmFacturasSeleccion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmIntimacionesDeudasConvenios.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmPadronDeSociosPorDistrito.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmPadronGeneralSocios.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmPreautorizacionCobroSinInteres.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmResumenConveniosPagosFirmados.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosCodene.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosEnProcesoJudicial.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosEnSituacionEspecial.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSociosIntimados.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Rutas.frmImprimirHojaRuta.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Seguridad.frmTerminales.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Seguridad.frmUsuarios.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Sys.frmGeneraPeriodos.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmAcciones.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmAccionesAM.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmBarrio.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConceptosParticulares.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConvenioNuevo.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConvenioPago.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConvenios.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCuentaCorriente.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmDetalleFactura.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmFacturas.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.FrmFiltro.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCalles.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmCategorias.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmConcepto.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmEstadoConexion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmEstadoPJ.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmEstudio.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmIntimacion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmLogin.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmMediciones.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmObservaciones.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSituacionEspecial.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmSocio.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTarifa.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTipoConexion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTipoDocumento.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmMedianera.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmProvincia.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmTipoIntimacion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.FrmTipoIVA.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmVentanaInformativa.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmZona.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.frmMenu.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Properties.Resources.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Reportes.frmReportes.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\com.cooperativa.view.Sys.frmConfiguracion.resources
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.view.exe
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.view.pdb
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.implement.dll
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.services.dll
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.implement.pdb
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.view\bin\Debug\com.cooperativa.services.pdb

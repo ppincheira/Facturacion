@@ -1,0 +1,18 @@
+D:\Proyectos\Cooperativa\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.dll
+D:\Proyectos\Cooperativa\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.pdb
+D:\Proyectos\Cooperativa\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
+D:\Proyectos\Cooperativa\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.dll
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.pdb
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
+C:\Users\ppincheira.ENERGIANQN\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.dll
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.pdb
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
+C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.dll
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.pdb
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
+C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb
