@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAnalisisFacturacion));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cmbTarifa = new System.Windows.Forms.ComboBox();
             this.cmbZona = new System.Windows.Forms.ComboBox();
@@ -326,6 +327,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAnalisisFacturacion";
             this.Text = "Análisis de facturación / Cobranzas";
             this.Load += new System.EventHandler(this.frmAnalisisFacturacion_Load);

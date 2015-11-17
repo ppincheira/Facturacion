@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListadoCobranzasAFIP));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.chkExcluir = new System.Windows.Forms.CheckBox();
@@ -197,6 +198,7 @@
             this.ClientSize = new System.Drawing.Size(456, 262);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmListadoCobranzasAFIP";
             this.Text = "Listado de cobranzas para AFIP";
             this.Load += new System.EventHandler(this.frmListadoCobranzasAFIP_Load);

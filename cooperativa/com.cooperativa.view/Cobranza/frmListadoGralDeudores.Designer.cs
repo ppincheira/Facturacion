@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListadoGralDeudores));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnFiltro = new System.Windows.Forms.Button();
             this.rbtnDistritosElectorales = new System.Windows.Forms.RadioButton();
@@ -717,6 +718,7 @@
             this.Controls.Add(this.gbOrdena);
             this.Controls.Add(this.gbCategoria);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmListadoGralDeudores";
             this.Text = "Listado general de Deudores";
             this.Load += new System.EventHandler(this.frmListadoGralDeudores_Load);

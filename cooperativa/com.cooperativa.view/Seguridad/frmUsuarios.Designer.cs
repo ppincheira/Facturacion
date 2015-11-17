@@ -28,13 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmUsuarios));
             this.lstBUsuarios = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtID = new System.Windows.Forms.TextBox();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.txtLogin = new System.Windows.Forms.TextBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.btnAnularCambios = new System.Windows.Forms.Button();
+            this.btnGuardarCambios = new System.Windows.Forms.Button();
+            this.btnModificarUsuario = new System.Windows.Forms.Button();
+            this.btnNuevoUsuario = new System.Windows.Forms.Button();
             this.chkOpcionesMantenimiento = new System.Windows.Forms.CheckBox();
             this.chkJudicialCodene = new System.Windows.Forms.CheckBox();
             this.chkListadosPadrones = new System.Windows.Forms.CheckBox();
@@ -50,18 +59,10 @@
             this.chkFacturacionAnulacion = new System.Windows.Forms.CheckBox();
             this.chkModificarDatos = new System.Windows.Forms.CheckBox();
             this.chkUsuarioHabilitado = new System.Windows.Forms.CheckBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnNuevoUsuario = new System.Windows.Forms.Button();
-            this.btnModificarUsuario = new System.Windows.Forms.Button();
-            this.btnGuardarCambios = new System.Windows.Forms.Button();
-            this.btnAnularCambios = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtLogin = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -121,38 +122,128 @@
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             // 
-            // txtID
+            // label7
             // 
-            this.txtID.Enabled = false;
-            this.txtID.Location = new System.Drawing.Point(419, 143);
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(34, 20);
-            this.txtID.TabIndex = 9;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(263, 74);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(189, 13);
+            this.label7.TabIndex = 42;
+            this.label7.Text = "(Nombre para registrarse en el sistema)";
             // 
-            // txtPassword
+            // label6
             // 
-            this.txtPassword.Enabled = false;
-            this.txtPassword.Location = new System.Drawing.Point(219, 143);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(183, 20);
-            this.txtPassword.TabIndex = 8;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(216, 182);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 13);
+            this.label6.TabIndex = 41;
+            this.label6.Text = "Permisos";
             // 
-            // txtLogin
+            // label5
             // 
-            this.txtLogin.Enabled = false;
-            this.txtLogin.Location = new System.Drawing.Point(219, 93);
-            this.txtLogin.Name = "txtLogin";
-            this.txtLogin.Size = new System.Drawing.Size(234, 20);
-            this.txtLogin.TabIndex = 7;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(425, 124);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(20, 13);
+            this.label5.TabIndex = 40;
+            this.label5.Text = "ID";
             // 
-            // txtNombre
+            // label4
             // 
-            this.txtNombre.Enabled = false;
-            this.txtNombre.Location = new System.Drawing.Point(219, 43);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(234, 20);
-            this.txtNombre.TabIndex = 6;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(216, 124);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(61, 13);
+            this.label4.TabIndex = 39;
+            this.label4.Text = "Password";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(216, 74);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(38, 13);
+            this.label3.TabIndex = 38;
+            this.label3.Text = "Login";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(216, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(168, 13);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Nombre completo de usuario";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnSalir);
+            this.groupBox2.Controls.Add(this.btnAnularCambios);
+            this.groupBox2.Controls.Add(this.btnGuardarCambios);
+            this.groupBox2.Controls.Add(this.btnModificarUsuario);
+            this.groupBox2.Controls.Add(this.btnNuevoUsuario);
+            this.groupBox2.Location = new System.Drawing.Point(9, 276);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(184, 268);
+            this.groupBox2.TabIndex = 36;
+            this.groupBox2.TabStop = false;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(22, 224);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(142, 23);
+            this.btnSalir.TabIndex = 4;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            // 
+            // btnAnularCambios
+            // 
+            this.btnAnularCambios.Enabled = false;
+            this.btnAnularCambios.Location = new System.Drawing.Point(22, 178);
+            this.btnAnularCambios.Name = "btnAnularCambios";
+            this.btnAnularCambios.Size = new System.Drawing.Size(142, 23);
+            this.btnAnularCambios.TabIndex = 3;
+            this.btnAnularCambios.Text = "Anular cambios";
+            this.btnAnularCambios.UseVisualStyleBackColor = true;
+            this.btnAnularCambios.Click += new System.EventHandler(this.btnAnularCambios_Click);
+            // 
+            // btnGuardarCambios
+            // 
+            this.btnGuardarCambios.Enabled = false;
+            this.btnGuardarCambios.Location = new System.Drawing.Point(22, 132);
+            this.btnGuardarCambios.Name = "btnGuardarCambios";
+            this.btnGuardarCambios.Size = new System.Drawing.Size(142, 23);
+            this.btnGuardarCambios.TabIndex = 2;
+            this.btnGuardarCambios.Text = "Guardar cambios";
+            this.btnGuardarCambios.UseVisualStyleBackColor = true;
+            this.btnGuardarCambios.Click += new System.EventHandler(this.btnGuardarCambios_Click);
+            // 
+            // btnModificarUsuario
+            // 
+            this.btnModificarUsuario.Location = new System.Drawing.Point(22, 84);
+            this.btnModificarUsuario.Name = "btnModificarUsuario";
+            this.btnModificarUsuario.Size = new System.Drawing.Size(142, 23);
+            this.btnModificarUsuario.TabIndex = 1;
+            this.btnModificarUsuario.Text = "Modificar usuario";
+            this.btnModificarUsuario.UseVisualStyleBackColor = true;
+            this.btnModificarUsuario.Click += new System.EventHandler(this.btnModificarUsuario_Click);
+            // 
+            // btnNuevoUsuario
+            // 
+            this.btnNuevoUsuario.Location = new System.Drawing.Point(22, 38);
+            this.btnNuevoUsuario.Name = "btnNuevoUsuario";
+            this.btnNuevoUsuario.Size = new System.Drawing.Size(142, 23);
+            this.btnNuevoUsuario.TabIndex = 0;
+            this.btnNuevoUsuario.Text = "Nuevo usuario";
+            this.btnNuevoUsuario.UseVisualStyleBackColor = true;
+            this.btnNuevoUsuario.Click += new System.EventHandler(this.btnNuevoUsuario_Click);
             // 
             // chkOpcionesMantenimiento
             // 
@@ -319,128 +410,38 @@
             this.chkUsuarioHabilitado.Text = "Usuario habilitado";
             this.chkUsuarioHabilitado.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
+            // txtID
             // 
-            this.groupBox2.Controls.Add(this.btnSalir);
-            this.groupBox2.Controls.Add(this.btnAnularCambios);
-            this.groupBox2.Controls.Add(this.btnGuardarCambios);
-            this.groupBox2.Controls.Add(this.btnModificarUsuario);
-            this.groupBox2.Controls.Add(this.btnNuevoUsuario);
-            this.groupBox2.Location = new System.Drawing.Point(9, 276);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(184, 268);
-            this.groupBox2.TabIndex = 36;
-            this.groupBox2.TabStop = false;
+            this.txtID.Enabled = false;
+            this.txtID.Location = new System.Drawing.Point(419, 143);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(34, 20);
+            this.txtID.TabIndex = 9;
             // 
-            // btnNuevoUsuario
+            // txtPassword
             // 
-            this.btnNuevoUsuario.Location = new System.Drawing.Point(22, 38);
-            this.btnNuevoUsuario.Name = "btnNuevoUsuario";
-            this.btnNuevoUsuario.Size = new System.Drawing.Size(142, 23);
-            this.btnNuevoUsuario.TabIndex = 0;
-            this.btnNuevoUsuario.Text = "Nuevo usuario";
-            this.btnNuevoUsuario.UseVisualStyleBackColor = true;
-            this.btnNuevoUsuario.Click += new System.EventHandler(this.btnNuevoUsuario_Click);
+            this.txtPassword.Enabled = false;
+            this.txtPassword.Location = new System.Drawing.Point(219, 143);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(183, 20);
+            this.txtPassword.TabIndex = 8;
             // 
-            // btnModificarUsuario
+            // txtLogin
             // 
-            this.btnModificarUsuario.Location = new System.Drawing.Point(22, 84);
-            this.btnModificarUsuario.Name = "btnModificarUsuario";
-            this.btnModificarUsuario.Size = new System.Drawing.Size(142, 23);
-            this.btnModificarUsuario.TabIndex = 1;
-            this.btnModificarUsuario.Text = "Modificar usuario";
-            this.btnModificarUsuario.UseVisualStyleBackColor = true;
-            this.btnModificarUsuario.Click += new System.EventHandler(this.btnModificarUsuario_Click);
+            this.txtLogin.Enabled = false;
+            this.txtLogin.Location = new System.Drawing.Point(219, 93);
+            this.txtLogin.Name = "txtLogin";
+            this.txtLogin.Size = new System.Drawing.Size(234, 20);
+            this.txtLogin.TabIndex = 7;
             // 
-            // btnGuardarCambios
+            // txtNombre
             // 
-            this.btnGuardarCambios.Enabled = false;
-            this.btnGuardarCambios.Location = new System.Drawing.Point(22, 132);
-            this.btnGuardarCambios.Name = "btnGuardarCambios";
-            this.btnGuardarCambios.Size = new System.Drawing.Size(142, 23);
-            this.btnGuardarCambios.TabIndex = 2;
-            this.btnGuardarCambios.Text = "Guardar cambios";
-            this.btnGuardarCambios.UseVisualStyleBackColor = true;
-            this.btnGuardarCambios.Click += new System.EventHandler(this.btnGuardarCambios_Click);
-            // 
-            // btnAnularCambios
-            // 
-            this.btnAnularCambios.Enabled = false;
-            this.btnAnularCambios.Location = new System.Drawing.Point(22, 178);
-            this.btnAnularCambios.Name = "btnAnularCambios";
-            this.btnAnularCambios.Size = new System.Drawing.Size(142, 23);
-            this.btnAnularCambios.TabIndex = 3;
-            this.btnAnularCambios.Text = "Anular cambios";
-            this.btnAnularCambios.UseVisualStyleBackColor = true;
-            this.btnAnularCambios.Click += new System.EventHandler(this.btnAnularCambios_Click);
-            // 
-            // btnSalir
-            // 
-            this.btnSalir.Location = new System.Drawing.Point(22, 224);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(142, 23);
-            this.btnSalir.TabIndex = 4;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(216, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 13);
-            this.label2.TabIndex = 37;
-            this.label2.Text = "Nombre completo de usuario";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(216, 74);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 13);
-            this.label3.TabIndex = 38;
-            this.label3.Text = "Login";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(216, 124);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 13);
-            this.label4.TabIndex = 39;
-            this.label4.Text = "Password";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(425, 124);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(20, 13);
-            this.label5.TabIndex = 40;
-            this.label5.Text = "ID";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(216, 182);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(57, 13);
-            this.label6.TabIndex = 41;
-            this.label6.Text = "Permisos";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(263, 74);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(189, 13);
-            this.label7.TabIndex = 42;
-            this.label7.Text = "(Nombre para registrarse en el sistema)";
+            this.txtNombre.Enabled = false;
+            this.txtNombre.Location = new System.Drawing.Point(219, 43);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(234, 20);
+            this.txtNombre.TabIndex = 6;
             // 
             // frmUsuarios
             // 
@@ -448,6 +449,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(495, 559);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmUsuarios";
             this.Text = "frmUsuarios";
             this.Load += new System.EventHandler(this.frmUsuarios_Load);

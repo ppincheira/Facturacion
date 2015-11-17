@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCobranza));
             this.label1 = new System.Windows.Forms.Label();
             this.txtNroFactura = new System.Windows.Forms.TextBox();
             this.cmbCaja = new System.Windows.Forms.ComboBox();
@@ -503,6 +504,7 @@
             this.Controls.Add(this.cmbCaja);
             this.Controls.Add(this.txtNroFactura);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCobranza";
             this.Text = "Cobranza";
             this.Load += new System.EventHandler(this.frmCobranza_Load);

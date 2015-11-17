@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAnalisisDeudor));
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnGenerarListado = new System.Windows.Forms.Button();
@@ -47,15 +48,15 @@
             this.rbtnBarrio = new System.Windows.Forms.RadioButton();
             this.rbtnSociosUsuario = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbtnA24 = new System.Windows.Forms.RadioButton();
-            this.rbtnA12 = new System.Windows.Forms.RadioButton();
-            this.rbtnA3 = new System.Windows.Forms.RadioButton();
-            this.rbtnA6 = new System.Windows.Forms.RadioButton();
-            this.rbtnAPeriodos = new System.Windows.Forms.RadioButton();
-            this.dtpDesde = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dtpHasta = new System.Windows.Forms.DateTimePicker();
             this.rbtn36 = new System.Windows.Forms.RadioButton();
+            this.dtpHasta = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dtpDesde = new System.Windows.Forms.DateTimePicker();
+            this.rbtnAPeriodos = new System.Windows.Forms.RadioButton();
+            this.rbtnA6 = new System.Windows.Forms.RadioButton();
+            this.rbtnA3 = new System.Windows.Forms.RadioButton();
+            this.rbtnA12 = new System.Windows.Forms.RadioButton();
+            this.rbtnA24 = new System.Windows.Forms.RadioButton();
             this.groupBox4.SuspendLayout();
             this.gbIncluir.SuspendLayout();
             this.gbGenerar.SuspendLayout();
@@ -269,86 +270,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Alcance de análisis...";
             // 
-            // rbtnA24
-            // 
-            this.rbtnA24.AutoSize = true;
-            this.rbtnA24.Location = new System.Drawing.Point(6, 43);
-            this.rbtnA24.Name = "rbtnA24";
-            this.rbtnA24.Size = new System.Drawing.Size(107, 17);
-            this.rbtnA24.TabIndex = 2;
-            this.rbtnA24.Text = "Ultimos 24 meses";
-            this.rbtnA24.UseVisualStyleBackColor = true;
-            this.rbtnA24.CheckedChanged += new System.EventHandler(this.rbtnA24_CheckedChanged);
-            // 
-            // rbtnA12
-            // 
-            this.rbtnA12.AutoSize = true;
-            this.rbtnA12.Location = new System.Drawing.Point(6, 66);
-            this.rbtnA12.Name = "rbtnA12";
-            this.rbtnA12.Size = new System.Drawing.Size(107, 17);
-            this.rbtnA12.TabIndex = 3;
-            this.rbtnA12.Text = "Ultimos 12 meses";
-            this.rbtnA12.UseVisualStyleBackColor = true;
-            this.rbtnA12.CheckedChanged += new System.EventHandler(this.rbtnA12_CheckedChanged);
-            // 
-            // rbtnA3
-            // 
-            this.rbtnA3.AutoSize = true;
-            this.rbtnA3.Location = new System.Drawing.Point(6, 112);
-            this.rbtnA3.Name = "rbtnA3";
-            this.rbtnA3.Size = new System.Drawing.Size(101, 17);
-            this.rbtnA3.TabIndex = 4;
-            this.rbtnA3.Text = "Ultimos 3 meses";
-            this.rbtnA3.UseVisualStyleBackColor = true;
-            this.rbtnA3.CheckedChanged += new System.EventHandler(this.rbtnA3_CheckedChanged);
-            // 
-            // rbtnA6
-            // 
-            this.rbtnA6.AutoSize = true;
-            this.rbtnA6.Location = new System.Drawing.Point(6, 89);
-            this.rbtnA6.Name = "rbtnA6";
-            this.rbtnA6.Size = new System.Drawing.Size(101, 17);
-            this.rbtnA6.TabIndex = 5;
-            this.rbtnA6.Text = "Ultimos 6 meses";
-            this.rbtnA6.UseVisualStyleBackColor = true;
-            this.rbtnA6.CheckedChanged += new System.EventHandler(this.rbtnA6_CheckedChanged);
-            // 
-            // rbtnAPeriodos
-            // 
-            this.rbtnAPeriodos.AutoSize = true;
-            this.rbtnAPeriodos.Location = new System.Drawing.Point(6, 135);
-            this.rbtnAPeriodos.Name = "rbtnAPeriodos";
-            this.rbtnAPeriodos.Size = new System.Drawing.Size(56, 17);
-            this.rbtnAPeriodos.TabIndex = 6;
-            this.rbtnAPeriodos.Text = "Desde";
-            this.rbtnAPeriodos.UseVisualStyleBackColor = true;
-            this.rbtnAPeriodos.CheckedChanged += new System.EventHandler(this.rbtnAPeriodos_CheckedChanged);
-            // 
-            // dtpDesde
-            // 
-            this.dtpDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDesde.Location = new System.Drawing.Point(68, 135);
-            this.dtpDesde.Name = "dtpDesde";
-            this.dtpDesde.Size = new System.Drawing.Size(101, 20);
-            this.dtpDesde.TabIndex = 7;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(176, 137);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "hasta";
-            // 
-            // dtpHasta
-            // 
-            this.dtpHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpHasta.Location = new System.Drawing.Point(215, 135);
-            this.dtpHasta.Name = "dtpHasta";
-            this.dtpHasta.Size = new System.Drawing.Size(101, 20);
-            this.dtpHasta.TabIndex = 9;
-            // 
             // rbtn36
             // 
             this.rbtn36.AutoSize = true;
@@ -362,6 +283,86 @@
             this.rbtn36.UseVisualStyleBackColor = true;
             this.rbtn36.CheckedChanged += new System.EventHandler(this.rbtn36_CheckedChanged);
             // 
+            // dtpHasta
+            // 
+            this.dtpHasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpHasta.Location = new System.Drawing.Point(215, 135);
+            this.dtpHasta.Name = "dtpHasta";
+            this.dtpHasta.Size = new System.Drawing.Size(101, 20);
+            this.dtpHasta.TabIndex = 9;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(176, 137);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(33, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "hasta";
+            // 
+            // dtpDesde
+            // 
+            this.dtpDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpDesde.Location = new System.Drawing.Point(68, 135);
+            this.dtpDesde.Name = "dtpDesde";
+            this.dtpDesde.Size = new System.Drawing.Size(101, 20);
+            this.dtpDesde.TabIndex = 7;
+            // 
+            // rbtnAPeriodos
+            // 
+            this.rbtnAPeriodos.AutoSize = true;
+            this.rbtnAPeriodos.Location = new System.Drawing.Point(6, 135);
+            this.rbtnAPeriodos.Name = "rbtnAPeriodos";
+            this.rbtnAPeriodos.Size = new System.Drawing.Size(56, 17);
+            this.rbtnAPeriodos.TabIndex = 6;
+            this.rbtnAPeriodos.Text = "Desde";
+            this.rbtnAPeriodos.UseVisualStyleBackColor = true;
+            this.rbtnAPeriodos.CheckedChanged += new System.EventHandler(this.rbtnAPeriodos_CheckedChanged);
+            // 
+            // rbtnA6
+            // 
+            this.rbtnA6.AutoSize = true;
+            this.rbtnA6.Location = new System.Drawing.Point(6, 89);
+            this.rbtnA6.Name = "rbtnA6";
+            this.rbtnA6.Size = new System.Drawing.Size(101, 17);
+            this.rbtnA6.TabIndex = 5;
+            this.rbtnA6.Text = "Ultimos 6 meses";
+            this.rbtnA6.UseVisualStyleBackColor = true;
+            this.rbtnA6.CheckedChanged += new System.EventHandler(this.rbtnA6_CheckedChanged);
+            // 
+            // rbtnA3
+            // 
+            this.rbtnA3.AutoSize = true;
+            this.rbtnA3.Location = new System.Drawing.Point(6, 112);
+            this.rbtnA3.Name = "rbtnA3";
+            this.rbtnA3.Size = new System.Drawing.Size(101, 17);
+            this.rbtnA3.TabIndex = 4;
+            this.rbtnA3.Text = "Ultimos 3 meses";
+            this.rbtnA3.UseVisualStyleBackColor = true;
+            this.rbtnA3.CheckedChanged += new System.EventHandler(this.rbtnA3_CheckedChanged);
+            // 
+            // rbtnA12
+            // 
+            this.rbtnA12.AutoSize = true;
+            this.rbtnA12.Location = new System.Drawing.Point(6, 66);
+            this.rbtnA12.Name = "rbtnA12";
+            this.rbtnA12.Size = new System.Drawing.Size(107, 17);
+            this.rbtnA12.TabIndex = 3;
+            this.rbtnA12.Text = "Ultimos 12 meses";
+            this.rbtnA12.UseVisualStyleBackColor = true;
+            this.rbtnA12.CheckedChanged += new System.EventHandler(this.rbtnA12_CheckedChanged);
+            // 
+            // rbtnA24
+            // 
+            this.rbtnA24.AutoSize = true;
+            this.rbtnA24.Location = new System.Drawing.Point(6, 43);
+            this.rbtnA24.Name = "rbtnA24";
+            this.rbtnA24.Size = new System.Drawing.Size(107, 17);
+            this.rbtnA24.TabIndex = 2;
+            this.rbtnA24.Text = "Ultimos 24 meses";
+            this.rbtnA24.UseVisualStyleBackColor = true;
+            this.rbtnA24.CheckedChanged += new System.EventHandler(this.rbtnA24_CheckedChanged);
+            // 
             // frmAnalisisDeudor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -371,6 +372,7 @@
             this.Controls.Add(this.gbIncluir);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbGenerar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAnalisisDeudor";
             this.Text = "Detectar cambios de estado de Deudor/No Deudor";
             this.Load += new System.EventHandler(this.frmAnalisisDeudor_Load);

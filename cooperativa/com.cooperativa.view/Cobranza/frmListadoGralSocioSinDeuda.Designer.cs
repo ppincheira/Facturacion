@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListadoGralSocioSinDeuda));
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnGenerarListado = new System.Windows.Forms.Button();
@@ -246,6 +247,7 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.gbOrdena);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmListadoGralSocioSinDeuda";
             this.Text = "Listado general de socios sin deuda";
             this.Load += new System.EventHandler(this.frmListadoGralSocioSinDeuda_Load);

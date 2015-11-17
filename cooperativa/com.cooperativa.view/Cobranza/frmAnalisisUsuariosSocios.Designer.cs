@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAnalisisUsuariosSocios));
             this.gbAnalisis = new System.Windows.Forms.GroupBox();
             this.dtpHasta = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
@@ -276,6 +277,7 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.gbAnalisis);
             this.Controls.Add(this.gbGenerar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAnalisisUsuariosSocios";
             this.Text = "Análisis de usuarios / Socios";
             this.Load += new System.EventHandler(this.frmAnalisisUsuariosSocios_Load);

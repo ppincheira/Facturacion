@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRecaudacion));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cmbCaja = new System.Windows.Forms.ComboBox();
             this.rbtnCaja = new System.Windows.Forms.RadioButton();
@@ -221,6 +222,7 @@
             this.Controls.Add(this.gbOrdenar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmRecaudacion";
             this.Text = "Planilla para el control de recaudación";
             this.Load += new System.EventHandler(this.frmRecaudacion_Load);

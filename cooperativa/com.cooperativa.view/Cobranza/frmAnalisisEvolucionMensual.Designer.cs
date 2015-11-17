@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAnalisisEvolucionMensual));
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnGenerarListado = new System.Windows.Forms.Button();
@@ -344,6 +345,7 @@
             this.Controls.Add(this.gbIncluir);
             this.Controls.Add(this.gbAnalisis);
             this.Controls.Add(this.gbGenerar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAnalisisEvolucionMensual";
             this.Text = "Evolución mensual de socios, cobranzas y convenios";
             this.Load += new System.EventHandler(this.frmAnalisisEvolucionMensual_Load);

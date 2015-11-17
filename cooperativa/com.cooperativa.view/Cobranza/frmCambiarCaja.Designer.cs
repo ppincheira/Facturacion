@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCambiarCaja));
             this.label1 = new System.Windows.Forms.Label();
             this.txtCajaActual = new System.Windows.Forms.TextBox();
             this.cmbCajaNueva = new System.Windows.Forms.ComboBox();
@@ -122,6 +123,7 @@
             this.Controls.Add(this.cmbCajaNueva);
             this.Controls.Add(this.txtCajaActual);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCambiarCaja";
             this.Text = "frmCambiarCaja";
             this.Load += new System.EventHandler(this.frmCambiarCaja_Load);

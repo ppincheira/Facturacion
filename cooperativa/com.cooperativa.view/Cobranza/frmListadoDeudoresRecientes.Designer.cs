@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListadoDeudoresRecientes));
             this.gbOrdena = new System.Windows.Forms.GroupBox();
             this.gbOrdenar = new System.Windows.Forms.GroupBox();
             this.rbtnDescendente = new System.Windows.Forms.RadioButton();
@@ -40,6 +41,7 @@
             this.btnFiltro = new System.Windows.Forms.Button();
             this.rbtnFiltro = new System.Windows.Forms.RadioButton();
             this.cmbBarrio = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.rbtnSelecionaBarrio = new System.Windows.Forms.RadioButton();
             this.rbtnTodosBarrios = new System.Windows.Forms.RadioButton();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -49,7 +51,6 @@
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
             this.rbtnFAl = new System.Windows.Forms.RadioButton();
             this.rbtnFHoy = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
             this.gbOrdena.SuspendLayout();
             this.gbOrdenar.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -195,6 +196,15 @@
             this.cmbBarrio.Size = new System.Drawing.Size(173, 21);
             this.cmbBarrio.TabIndex = 3;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(33, 67);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Barrio:";
+            // 
             // rbtnSelecionaBarrio
             // 
             this.rbtnSelecionaBarrio.AutoSize = true;
@@ -293,15 +303,6 @@
             this.rbtnFHoy.UseVisualStyleBackColor = true;
             this.rbtnFHoy.CheckedChanged += new System.EventHandler(this.rbtnFHoy_CheckedChanged);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 67);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Barrio:";
-            // 
             // frmListadoDeudoresRecientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -311,6 +312,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.gbOrdena);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmListadoDeudoresRecientes";
             this.Text = "Listado de deudores recientes";
             this.Load += new System.EventHandler(this.frmListadoDeudoresRecientes_Load);
