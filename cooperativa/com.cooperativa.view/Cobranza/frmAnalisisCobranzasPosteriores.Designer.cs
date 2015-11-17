@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAnalisisCobranzasPosteriores));
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnGenerarListado = new System.Windows.Forms.Button();
@@ -276,6 +277,7 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.gbAnalisis);
             this.Controls.Add(this.gbGenerar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmAnalisisCobranzasPosteriores";
             this.Text = "Análisis de las cobranza en los meses posteriores a la facturación";
             this.Load += new System.EventHandler(this.frmAnalisisCobranzasPosteriores_Load);

@@ -33,3 +33,11 @@ C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.i
 C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.implement\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.dll
 C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.pdb
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.implement.dll.config
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.implement.dll
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.implement.pdb
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.services.dll
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.services.pdb
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.csprojResolveAssemblyReference.cache
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.dll
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.pdb

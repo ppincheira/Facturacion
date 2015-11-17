@@ -16,3 +16,7 @@ C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.ser
 C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
 C:\Users\administrador\Dropbox\Cooperativa\coope\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.dll
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.pdb
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
+D:\Proyectos\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb
