@@ -20,3 +20,7 @@ D:\Proyectos\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.coop
 D:\Proyectos\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.pdb
 D:\Proyectos\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
 D:\Proyectos\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb
+D:\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.dll
+D:\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.pdb
+D:\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
+D:\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb

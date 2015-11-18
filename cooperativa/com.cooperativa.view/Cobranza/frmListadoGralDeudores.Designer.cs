@@ -504,6 +504,7 @@
             this.btnGenerarListado.TabIndex = 0;
             this.btnGenerarListado.Text = "Generar Listado";
             this.btnGenerarListado.UseVisualStyleBackColor = true;
+            this.btnGenerarListado.Click += new System.EventHandler(this.btnGenerarListado_Click);
             // 
             // gbAnalisis
             // 

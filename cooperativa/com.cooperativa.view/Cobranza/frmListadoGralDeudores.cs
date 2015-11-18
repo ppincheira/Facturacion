@@ -116,6 +116,10 @@ namespace com.cooperativa.view.Cobranza
         {
             OcultarPorcentaje();
         }
+        private void btnGenerarListado_Click(object sender, EventArgs e)
+        {
+            GenerarListado();
+        }
 
    
         #endregion
@@ -277,8 +281,21 @@ namespace com.cooperativa.view.Cobranza
             this.txtPorcentaje.Enabled = true;
             this.txtPorcentaje.Text = "";
         }
+
+        private void GenerarListado() {
+
+
+            if (this.rbtnSelecionaBarrio.Checked && this.cmbBarrio.SelectedValue == "0") {
+
+                MessageBox.Show("Debe seleccionar un barrio", "Información Insuficiente");
+                
+            }
+
+
+        }
         #endregion
 
+    
  
 
         

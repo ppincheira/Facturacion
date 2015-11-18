@@ -41,3 +41,11 @@ D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.coo
 D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.csprojResolveAssemblyReference.cache
 D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.dll
 D:\Proyectos\Facturacion\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.pdb
+D:\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.implement.dll.config
+D:\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.implement.dll
+D:\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.implement.pdb
+D:\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.services.dll
+D:\Facturacion\cooperativa\com.cooperativa.implement\bin\Debug\com.cooperativa.services.pdb
+D:\Facturacion\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.csprojResolveAssemblyReference.cache
+D:\Facturacion\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.dll
+D:\Facturacion\cooperativa\com.cooperativa.implement\obj\Debug\com.cooperativa.implement.pdb
