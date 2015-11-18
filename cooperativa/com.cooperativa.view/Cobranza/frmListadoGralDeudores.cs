@@ -13,6 +13,11 @@ namespace com.cooperativa.view.Cobranza
     public partial class frmListadoGralDeudores : Form
     {
    
+        #region << PROPIEDADES >>
+
+        string SQLFiltro = "";
+
+        #endregion
         #region << EVENTOS >>
         public frmListadoGralDeudores()
         {
@@ -156,9 +161,9 @@ namespace com.cooperativa.view.Cobranza
             dtOpciones.Rows.Add("02", "Menos de");
             dtOpciones.Rows.Add("03", "Igual a");
 
-            this.cmbOpciones.DataSource = dtOpciones;
-            this.cmbOpciones.ValueMember = "numero";
-            this.cmbOpciones.DisplayMember = "opcion";
+            this.cmbPeriodos.DataSource = dtOpciones;
+            this.cmbPeriodos.ValueMember = "numero";
+            this.cmbPeriodos.DisplayMember = "opcion";
         }
 
         private void CargarComparadorDos()
@@ -171,9 +176,9 @@ namespace com.cooperativa.view.Cobranza
             dtOpciones.Rows.Add("02", "Menor que");
             dtOpciones.Rows.Add("03", "Igual a");
 
-            this.cmbOpcionesDos.DataSource = dtOpciones;
-            this.cmbOpcionesDos.ValueMember = "numero";
-            this.cmbOpcionesDos.DisplayMember = "opcion";
+            this.cmbImporte.DataSource = dtOpciones;
+            this.cmbImporte.ValueMember = "numero";
+            this.cmbImporte.DisplayMember = "opcion";
         }
 
         private void HabilitarBarrio() {
@@ -193,19 +198,19 @@ namespace com.cooperativa.view.Cobranza
 
         private void Ocultar234() { 
         
-            this.cmbOpciones.Enabled=false;
+            this.cmbPeriodos.Enabled=false;
             this.txtPeriodos.Enabled=false;
             this.txtPeriodos.Text="";
-            this.cmbOpcionesDos.Enabled=false;
+            this.cmbImporte.Enabled=false;
             this.txtPesos.Enabled=false;
             this.txtPesos.Text="";
             this.gbDeudaConvenio.Enabled=false;
         }
         private void Ocultar134() {
-            this.cmbOpciones.Enabled = true;
+            this.cmbPeriodos.Enabled = true;
             this.txtPeriodos.Enabled = true;
             this.txtPeriodos.Text = "";
-            this.cmbOpcionesDos.Enabled = false;
+            this.cmbImporte.Enabled = false;
             this.txtPesos.Enabled = false;
             this.txtPesos.Text = "";
             this.gbDeudaConvenio.Enabled = false;
@@ -213,10 +218,10 @@ namespace com.cooperativa.view.Cobranza
         }
 
         private void Ocultar124() {
-            this.cmbOpciones.Enabled = false;
+            this.cmbPeriodos.Enabled = false;
             this.txtPeriodos.Enabled = false;
             this.txtPeriodos.Text = "";
-            this.cmbOpcionesDos.Enabled = true;
+            this.cmbImporte.Enabled = true;
             this.txtPesos.Enabled = true;
             this.txtPesos.Text = "";
             this.gbDeudaConvenio.Enabled = false;
@@ -224,10 +229,10 @@ namespace com.cooperativa.view.Cobranza
 
         private void Ocultar123() {
 
-            this.cmbOpciones.Enabled = false;
+            this.cmbPeriodos.Enabled = false;
             this.txtPeriodos.Enabled = false;
             this.txtPeriodos.Text = "";
-            this.cmbOpcionesDos.Enabled = false;
+            this.cmbImporte.Enabled = false;
             this.txtPesos.Enabled = false;
             this.txtPesos.Text = "";
             this.gbDeudaConvenio.Enabled = true;
@@ -284,12 +289,40 @@ namespace com.cooperativa.view.Cobranza
 
         private void GenerarListado() {
 
-
-            if (this.rbtnSelecionaBarrio.Checked && this.cmbBarrio.SelectedValue == "0") {
+            //verifica que el barrio este seleccionado
+            if (this.rbtnSelecionaBarrio.Checked && this.cmbBarrio.SelectedValue.ToString() == "0") 
 
                 MessageBox.Show("Debe seleccionar un barrio", "Información Insuficiente");
+            
+            if (rbtnFiltro.Checked && SQLFiltro=="")
+                MessageBox.Show("Filtro", "Información Insuficiente");
+
+            //verifica que se haya ingresado la fecha valida
+
+            if (this.rbtnAAdeudan.Checked && this.txtPeriodos.Text=="")
+                MessageBox.Show("Debe indicar la cantidad de Periodos que se utilizara", "Información Insuficiente");
+
+            if (this.rbtnADeudaPesos.AutoCheck && this.txtPesos.Text=="")
+                MessageBox.Show("Debe indicar el importe que se utilizara", "Información Insuficiente");
+
+            if( this.rbtnSeleccionaCategoria.Checked && this.cmbCategoria.SelectedValue=="0")
+                MessageBox.Show("Debe Seleccionar Categoria", "Información Insuficiente");
+
+
+
+            string SQLSocios="select * from socios s "+
+                    " inner join socios_conexion sc on s.id_Socio=sc.id_Socio ";
+
+                if (this.rbtnSelecionaBarrio.Checked)
+
+                    SQLSocios= SQLSocios+ " where sc.barrio="+this.cmbBarrio.SelectedValue;
+
+                if (this.rbtnFiltro.Checked) 
+                    SQLSocios = SQLSocios + SQLFiltro;
                 
-            }
+            if (this.chkAExcluirNoSocios.Checked)
+                SQLSocios=SQLSocios+
+
 
 
         }

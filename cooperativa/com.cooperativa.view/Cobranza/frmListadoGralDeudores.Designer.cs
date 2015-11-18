@@ -75,10 +75,10 @@
             this.rbtnTodosConvenios = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
             this.txtPesos = new System.Windows.Forms.TextBox();
-            this.cmbOpcionesDos = new System.Windows.Forms.ComboBox();
+            this.cmbImporte = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtPeriodos = new System.Windows.Forms.TextBox();
-            this.cmbOpciones = new System.Windows.Forms.ComboBox();
+            this.cmbPeriodos = new System.Windows.Forms.ComboBox();
             this.chkAExcluirNoSocios = new System.Windows.Forms.CheckBox();
             this.chkASinDeuda = new System.Windows.Forms.CheckBox();
             this.rbtnDeudaConvenio = new System.Windows.Forms.RadioButton();
@@ -511,10 +511,10 @@
             this.gbAnalisis.Controls.Add(this.gbDeudaConvenio);
             this.gbAnalisis.Controls.Add(this.label4);
             this.gbAnalisis.Controls.Add(this.txtPesos);
-            this.gbAnalisis.Controls.Add(this.cmbOpcionesDos);
+            this.gbAnalisis.Controls.Add(this.cmbImporte);
             this.gbAnalisis.Controls.Add(this.label3);
             this.gbAnalisis.Controls.Add(this.txtPeriodos);
-            this.gbAnalisis.Controls.Add(this.cmbOpciones);
+            this.gbAnalisis.Controls.Add(this.cmbPeriodos);
             this.gbAnalisis.Controls.Add(this.chkAExcluirNoSocios);
             this.gbAnalisis.Controls.Add(this.chkASinDeuda);
             this.gbAnalisis.Controls.Add(this.rbtnDeudaConvenio);
@@ -607,13 +607,13 @@
             this.txtPesos.TabIndex = 15;
             this.txtPesos.Text = "0";
             // 
-            // cmbOpcionesDos
+            // cmbImporte
             // 
-            this.cmbOpcionesDos.FormattingEnabled = true;
-            this.cmbOpcionesDos.Location = new System.Drawing.Point(34, 105);
-            this.cmbOpcionesDos.Name = "cmbOpcionesDos";
-            this.cmbOpcionesDos.Size = new System.Drawing.Size(87, 21);
-            this.cmbOpcionesDos.TabIndex = 16;
+            this.cmbImporte.FormattingEnabled = true;
+            this.cmbImporte.Location = new System.Drawing.Point(34, 105);
+            this.cmbImporte.Name = "cmbImporte";
+            this.cmbImporte.Size = new System.Drawing.Size(87, 21);
+            this.cmbImporte.TabIndex = 16;
             // 
             // label3
             // 
@@ -632,13 +632,13 @@
             this.txtPeriodos.TabIndex = 11;
             this.txtPeriodos.Text = "0";
             // 
-            // cmbOpciones
+            // cmbPeriodos
             // 
-            this.cmbOpciones.FormattingEnabled = true;
-            this.cmbOpciones.Location = new System.Drawing.Point(34, 60);
-            this.cmbOpciones.Name = "cmbOpciones";
-            this.cmbOpciones.Size = new System.Drawing.Size(87, 21);
-            this.cmbOpciones.TabIndex = 13;
+            this.cmbPeriodos.FormattingEnabled = true;
+            this.cmbPeriodos.Location = new System.Drawing.Point(34, 60);
+            this.cmbPeriodos.Name = "cmbPeriodos";
+            this.cmbPeriodos.Size = new System.Drawing.Size(87, 21);
+            this.cmbPeriodos.TabIndex = 13;
             // 
             // chkAExcluirNoSocios
             // 
@@ -788,10 +788,10 @@
         private System.Windows.Forms.GroupBox gbAnalisis;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtPesos;
-        private System.Windows.Forms.ComboBox cmbOpcionesDos;
+        private System.Windows.Forms.ComboBox cmbImporte;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtPeriodos;
-        private System.Windows.Forms.ComboBox cmbOpciones;
+        private System.Windows.Forms.ComboBox cmbPeriodos;
         private System.Windows.Forms.CheckBox chkAExcluirNoSocios;
         private System.Windows.Forms.CheckBox chkASinDeuda;
         private System.Windows.Forms.RadioButton rbtnDeudaConvenio;
