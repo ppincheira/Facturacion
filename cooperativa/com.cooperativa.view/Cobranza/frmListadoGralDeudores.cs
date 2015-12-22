@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using com.cooperativa.implement;
+using com.cooperativa.implement.dao;
 
 namespace com.cooperativa.view.Cobranza
 {
@@ -311,19 +312,31 @@ namespace com.cooperativa.view.Cobranza
 
 
             string SQLSocios="select * from socios s "+
-                    " inner join socios_conexion sc on s.id_Socio=sc.id_Socio ";
+                    " inner join socios_conexion sc on s.id_Socio=sc.id_Socio where 1=1 ";
 
                 if (this.rbtnSelecionaBarrio.Checked)
 
-                    SQLSocios= SQLSocios+ " where sc.barrio="+this.cmbBarrio.SelectedValue;
+                    SQLSocios= SQLSocios+ " and sc.barrio="+this.cmbBarrio.SelectedValue;
 
                 if (this.rbtnFiltro.Checked) 
                     SQLSocios = SQLSocios + SQLFiltro;
                 
-            if (this.chkAExcluirNoSocios.Checked)
-                SQLSocios=SQLSocios+
+                if (this.chkAExcluirNoSocios.Checked){
+                    SysConfigImplement oSysConfigImplement = new SysConfigImplement();
+                    sys_configuracion oSysConfig = new sys_configuracion();
+                    oSysConfig = oSysConfigImplement.GetByNombre("DiaPrimerVencimiento");
+                    SQLSocios = SQLSocios + " and s.codigo_socio<" + oSysConfig.valor;
+                    }
 
+                if (rbtnSeleccionaCategoria.Checked)
+                    SQLSocios = SQLSocios + "and s.categoria=" + cmbCategoria.SelectedValue;
 
+            Consultas oConsultas=new Consultas();
+            DataTable dtSocios = oConsultas.GetScript(SQLSocios);
+            foreach (DataRow dtRow in dtSocios.Rows)
+            {
+                //foreach(DataColumn dc in dtRow)
+            }
 
         }
         #endregion

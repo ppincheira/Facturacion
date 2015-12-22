@@ -14,7 +14,7 @@ namespace Importador
             {
                 try
                 {
-                    MySqlConnection conectar = new MySqlConnection("server=127.0.0.1; database=cooperativa2; Uid=root; pwd=1234;");
+                    MySqlConnection conectar = new MySqlConnection("server=127.0.0.1; database=cooperativa; Uid=root; pwd=1234;");
 
                     conectar.Open();
                     return conectar;

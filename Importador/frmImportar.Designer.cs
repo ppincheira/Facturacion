@@ -42,6 +42,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtHasta = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtAcces = new System.Windows.Forms.TextBox();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnImportar
@@ -63,7 +67,7 @@
             this.txtResultado.Multiline = true;
             this.txtResultado.Name = "txtResultado";
             this.txtResultado.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtResultado.Size = new System.Drawing.Size(447, 213);
+            this.txtResultado.Size = new System.Drawing.Size(533, 341);
             this.txtResultado.TabIndex = 1;
             // 
             // pgbProgreso
@@ -72,14 +76,14 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.pgbProgreso.Location = new System.Drawing.Point(93, 12);
             this.pgbProgreso.Name = "pgbProgreso";
-            this.pgbProgreso.Size = new System.Drawing.Size(430, 23);
+            this.pgbProgreso.Size = new System.Drawing.Size(516, 23);
             this.pgbProgreso.TabIndex = 2;
             this.pgbProgreso.Visible = false;
             // 
             // btnSalir
             // 
             this.btnSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSalir.Location = new System.Drawing.Point(529, 12);
+            this.btnSalir.Location = new System.Drawing.Point(615, 12);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 3;
@@ -125,7 +129,7 @@
             this.chklbTablas.FormattingEnabled = true;
             this.chklbTablas.Location = new System.Drawing.Point(12, 88);
             this.chklbTablas.Name = "chklbTablas";
-            this.chklbTablas.Size = new System.Drawing.Size(139, 214);
+            this.chklbTablas.Size = new System.Drawing.Size(139, 334);
             this.chklbTablas.TabIndex = 8;
             // 
             // lblTodos
@@ -182,11 +186,37 @@
             this.txtHasta.Size = new System.Drawing.Size(54, 20);
             this.txtHasta.TabIndex = 14;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.txtAcces);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Location = new System.Drawing.Point(12, 444);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(678, 35);
+            this.panel1.TabIndex = 15;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(3, 10);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(85, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Cadena ACCES:";
+            // 
+            // txtAcces
+            // 
+            this.txtAcces.Location = new System.Drawing.Point(115, 6);
+            this.txtAcces.Name = "txtAcces";
+            this.txtAcces.Size = new System.Drawing.Size(560, 20);
+            this.txtAcces.TabIndex = 15;
+            // 
             // frmImportar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(616, 313);
+            this.ClientSize = new System.Drawing.Size(702, 485);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtHasta);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -204,6 +234,8 @@
             this.Name = "frmImportar";
             this.Text = "Importador de tablas del sistema anterior (Coop.mdb)";
             this.Load += new System.EventHandler(this.frmImportar_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,6 +257,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtHasta;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox txtAcces;
+        private System.Windows.Forms.Label label6;
     }
 }
 

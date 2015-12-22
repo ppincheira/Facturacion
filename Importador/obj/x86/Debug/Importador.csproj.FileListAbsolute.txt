@@ -7,3 +7,10 @@ C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\Gene
 C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\Importador.exe
 C:\Users\Pablo Pincheira\Dropbox\Cooperativa\coope\Importador\obj\x86\Debug\Importador.pdb
+D:\Facturacion\Importador\bin\Debug\Importador.exe
+D:\Facturacion\Importador\bin\Debug\Importador.pdb
+D:\Facturacion\Importador\obj\x86\Debug\Importador.frmImportar.resources
+D:\Facturacion\Importador\obj\x86\Debug\Importador.Properties.Resources.resources
+D:\Facturacion\Importador\obj\x86\Debug\Importador.csproj.GenerateResource.Cache
+D:\Facturacion\Importador\obj\x86\Debug\Importador.exe
+D:\Facturacion\Importador\obj\x86\Debug\Importador.pdb

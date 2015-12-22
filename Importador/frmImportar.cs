@@ -208,7 +208,9 @@ namespace Importador
             try
             {
                 //Creo la cadena de conexion para Office 2007
-                string cadena = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\coop.mdb;Persist Security Info=False";
+                string cadena = this.txtAcces.Text;
+                //string cadena = @"Provider=Microsoft.ACE.OLEDB.14.0;Data Source=exercise1.accdb";
+                
                 //string cadena = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\WorkSpace\RiquelmePincheira\GitHub\Base datos\Coop 2014-04-14\coop.mdb;Persist Security Info=False";
 
                 //Objeto conexion
@@ -222,7 +224,7 @@ namespace Importador
             }
             catch (Exception ex)
             {
-                // Devuelve nulo
+                MessageBox.Show(ex.InnerException.Message);// Devuelve nulo
                 return null;
             }
         }
@@ -2437,6 +2439,8 @@ namespace Importador
 
         private void frmImportar_Load(object sender, EventArgs e)
         {
+            this.txtAcces.Text="Provider=Microsoft.ACE.OLEDB.15.0;Data Source=D:\\coop.mdb;Persist Security Info=False";
+           
             this.txtHasta.Text = (1595531-1).ToString();
             this.txtDesde.Text = (1595531 - 500).ToString();
         }

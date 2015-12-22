@@ -63,6 +63,7 @@
     <Compile Include="dao\CategoriaImplement.cs" />
     <Compile Include="dao\CalleImplement.cs" />
     <Compile Include="dao\CodeneImplement.cs" />
+    <Compile Include="dao\Consultas.cs" />
     <Compile Include="dao\ConvenioImplement.cs" />
     <Compile Include="dao\DetallesMoratoriaImplement.cs" />
     <Compile Include="dao\EstadosPagoImplement.cs" />
