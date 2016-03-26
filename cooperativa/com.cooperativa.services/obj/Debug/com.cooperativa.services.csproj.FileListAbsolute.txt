@@ -24,3 +24,7 @@ D:\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.se
 D:\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.pdb
 D:\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
 D:\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb
+D:\Trabajos\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.dll
+D:\Trabajos\Facturacion\cooperativa\com.cooperativa.services\bin\Debug\com.cooperativa.services.pdb
+D:\Trabajos\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.dll
+D:\Trabajos\Facturacion\cooperativa\com.cooperativa.services\obj\Debug\com.cooperativa.services.pdb
